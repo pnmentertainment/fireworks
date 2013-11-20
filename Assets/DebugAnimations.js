@@ -1,5 +1,5 @@
 ﻿#pragma strict
-
+//comment test
 var debugObjects : GameObject[];
 
 var debugObjectNames : String[];
