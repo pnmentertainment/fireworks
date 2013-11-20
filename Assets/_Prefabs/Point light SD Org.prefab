@@ -39,7 +39,7 @@ Light:
   m_Type: 2
   m_Color: {r: .97647059, g: .486355722, b: .109803885, a: 1}
   m_Intensity: 3.20000005
-  m_Range: 15
+  m_Range: 30
   m_SpotAngle: 30
   m_CookieSize: 10
   m_Shadows:
@@ -121,7 +121,7 @@ MonoBehaviour:
         fsmStringParams: []
         fsmObjectParams: []
         fsmVarParams: []
-        byteData: 0000003f0046494e495348454401
+        byteData: 000040400046494e495348454401
         arrayParamSizes: 
         arrayParamTypes: []
         customTypeSizes: 

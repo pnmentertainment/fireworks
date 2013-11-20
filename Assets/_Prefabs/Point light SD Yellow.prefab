@@ -11,7 +11,7 @@ GameObject:
   - 108: {fileID: 10800000}
   - 114: {fileID: 11400000}
   m_Layer: 0
-  m_Name: Light SD Blue
+  m_Name: Point light SD Yellow
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -37,9 +37,9 @@ Light:
   m_Enabled: 1
   serializedVersion: 3
   m_Type: 2
-  m_Color: {r: .109803885, g: .725436091, b: .97647059, a: 1}
-  m_Intensity: 3.20000005
-  m_Range: 15
+  m_Color: {r: .963235319, g: .93861711, b: .0708261356, a: 1}
+  m_Intensity: 2.20000005
+  m_Range: 30
   m_SpotAngle: 30
   m_CookieSize: 10
   m_Shadows:
@@ -121,7 +121,7 @@ MonoBehaviour:
         fsmStringParams: []
         fsmObjectParams: []
         fsmVarParams: []
-        byteData: 0000003f0046494e495348454401
+        byteData: 000040400046494e495348454401
         arrayParamSizes: 
         arrayParamTypes: []
         customTypeSizes: 

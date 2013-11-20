@@ -2215,7 +2215,7 @@ MonoBehaviour:
           name: FINISHED
           isSystemEvent: 1
           isGlobal: 0
-        toState: Explode
+        toState: Wait
         linkStyle: 0
         linkConstraint: 0
         colorIndex: 0
@@ -2353,13 +2353,13 @@ MonoBehaviour:
           tooltip: 
           showInInspector: 0
           networkSync: 0
-          value: {fileID: 100000, guid: ef52c75ce532b4044b1f580fc4def912, type: 2}
-        - useVariable: 0
+          value: {fileID: 100000, guid: 20d1bc6a0d05946f1b3d6bad345680c5, type: 2}
+        - useVariable: 1
           name: 
           tooltip: 
           showInInspector: 0
           networkSync: 0
-          value: {fileID: 100006, guid: 81a94880974a144e482727dda7398c99, type: 2}
+          value: {fileID: 0}
         - useVariable: 1
           name: 
           tooltip: 
@@ -2376,7 +2376,7 @@ MonoBehaviour:
         fsmStringParams: []
         fsmObjectParams: []
         fsmVarParams: []
-        byteData: 000000000000000000000000010000000000000000000000000100000000000000
+        byteData: 000040400000904100000042000000000000000000000000000100000000000000
         arrayParamSizes: 
         arrayParamTypes: []
         customTypeSizes: 
@@ -2392,6 +2392,60 @@ MonoBehaviour:
         - networkGroup
         paramDataPos: 0000000001000000000000000d000000020000001a0000001c000000
         paramByteDataSize: 00000000000000000d0000000d000000000000000200000005000000
+    - name: Wait
+      description: 
+      colorIndex: 0
+      position:
+        serializedVersion: 2
+        x: 237.967697
+        y: 253.134537
+        width: 100
+        height: 32
+      isBreakpoint: 0
+      isSequence: 0
+      hideUnused: 0
+      transitions:
+      - fsmEvent:
+          name: FINISHED
+          isSystemEvent: 1
+          isGlobal: 0
+        toState: Explode
+        linkStyle: 0
+        linkConstraint: 0
+        colorIndex: 0
+      actionData:
+        actionNames:
+        - HutongGames.PlayMaker.Actions.Wait
+        customNames:
+        - 
+        actionEnabled: 01
+        actionIsOpen: 01
+        actionStartIndex: 00000000
+        actionHashCodes: 3708ec1a
+        unityObjectParams: []
+        fsmGameObjectParams: []
+        fsmOwnerDefaultParams: []
+        animationCurveParams: []
+        functionCallParams: []
+        fsmTemplateControlParams: []
+        fsmEventTargetParams: []
+        fsmPropertyParams: []
+        layoutOptionParams: []
+        fsmStringParams: []
+        fsmObjectParams: []
+        fsmVarParams: []
+        byteData: 0000003f0046494e495348454400
+        arrayParamSizes: 
+        arrayParamTypes: []
+        customTypeSizes: 
+        customTypeNames: []
+        paramDataType: 0f0000001700000001000000
+        paramName:
+        - time
+        - finishEvent
+        - realTime
+        paramDataPos: 00000000050000000d000000
+        paramByteDataSize: 050000000800000001000000
     events:
     - name: FINISHED
       isSystemEvent: 1
@@ -2603,6 +2657,10 @@ Prefab:
       propertyPath: fsm.states.Array.data[1].actionData.fsmGameObjectParams.Array.data[0].value
       value: 
       objectReference: {fileID: 100004, guid: 3868d2587b83d4c559d6bc7ca898a0a0, type: 2}
+    - target: {fileID: 11400000, guid: 82ec77683ebd84d968046fc2f741eb35, type: 2}
+      propertyPath: fsm.states.Array.data[2].actionData.fsmGameObjectParams.Array.data[0].value
+      value: 
+      objectReference: {fileID: 100000, guid: 954e99262644b4336a986a95b8ac14b2, type: 2}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 82ec77683ebd84d968046fc2f741eb35, type: 2}
   m_RootGameObject: {fileID: 1745419689}
@@ -3587,7 +3645,7 @@ MonoBehaviour:
           name: FINISHED
           isSystemEvent: 1
           isGlobal: 0
-        toState: Explode
+        toState: Wait
         linkStyle: 0
         linkConstraint: 0
         colorIndex: 0
@@ -3725,13 +3783,13 @@ MonoBehaviour:
           tooltip: 
           showInInspector: 0
           networkSync: 0
-          value: {fileID: 100000, guid: ef52c75ce532b4044b1f580fc4def912, type: 2}
-        - useVariable: 0
+          value: {fileID: 100000, guid: cde961fe94e6740d0bc56c59a66fc1c0, type: 2}
+        - useVariable: 1
           name: 
           tooltip: 
           showInInspector: 0
           networkSync: 0
-          value: {fileID: 100006, guid: 81a94880974a144e482727dda7398c99, type: 2}
+          value: {fileID: 0}
         - useVariable: 1
           name: 
           tooltip: 
@@ -3748,7 +3806,7 @@ MonoBehaviour:
         fsmStringParams: []
         fsmObjectParams: []
         fsmVarParams: []
-        byteData: 000000000000000000000000010000000000000000000000000100000000000000
+        byteData: 000040400000904100000042000000000000000000000000000100000000000000
         arrayParamSizes: 
         arrayParamTypes: []
         customTypeSizes: 
@@ -3764,6 +3822,60 @@ MonoBehaviour:
         - networkGroup
         paramDataPos: 0000000001000000000000000d000000020000001a0000001c000000
         paramByteDataSize: 00000000000000000d0000000d000000000000000200000005000000
+    - name: Wait
+      description: 
+      colorIndex: 0
+      position:
+        serializedVersion: 2
+        x: 237.967697
+        y: 253.134537
+        width: 100
+        height: 32
+      isBreakpoint: 0
+      isSequence: 0
+      hideUnused: 0
+      transitions:
+      - fsmEvent:
+          name: FINISHED
+          isSystemEvent: 1
+          isGlobal: 0
+        toState: Explode
+        linkStyle: 0
+        linkConstraint: 0
+        colorIndex: 0
+      actionData:
+        actionNames:
+        - HutongGames.PlayMaker.Actions.Wait
+        customNames:
+        - 
+        actionEnabled: 01
+        actionIsOpen: 01
+        actionStartIndex: 00000000
+        actionHashCodes: 3708ec1a
+        unityObjectParams: []
+        fsmGameObjectParams: []
+        fsmOwnerDefaultParams: []
+        animationCurveParams: []
+        functionCallParams: []
+        fsmTemplateControlParams: []
+        fsmEventTargetParams: []
+        fsmPropertyParams: []
+        layoutOptionParams: []
+        fsmStringParams: []
+        fsmObjectParams: []
+        fsmVarParams: []
+        byteData: 0000003f0046494e495348454400
+        arrayParamSizes: 
+        arrayParamTypes: []
+        customTypeSizes: 
+        customTypeNames: []
+        paramDataType: 0f0000001700000001000000
+        paramName:
+        - time
+        - finishEvent
+        - realTime
+        paramDataPos: 00000000050000000d000000
+        paramByteDataSize: 050000000800000001000000
     events:
     - name: FINISHED
       isSystemEvent: 1
@@ -6141,6 +6253,10 @@ Prefab:
       propertyPath: fsm.states.Array.data[1].actionData.fsmGameObjectParams.Array.data[1].value
       value: 
       objectReference: {fileID: 1694187745}
+    - target: {fileID: 11400000, guid: 82ec77683ebd84d968046fc2f741eb35, type: 2}
+      propertyPath: fsm.states.Array.data[2].actionData.fsmGameObjectParams.Array.data[0].value
+      value: 
+      objectReference: {fileID: 100000, guid: c3b3fb2e0a962467c9a7fa30b49019a3, type: 2}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 82ec77683ebd84d968046fc2f741eb35, type: 2}
   m_RootGameObject: {fileID: 1694187745}
@@ -7072,6 +7188,10 @@ Prefab:
       propertyPath: fsm.states.Array.data[1].actionData.fsmGameObjectParams.Array.data[1].value
       value: 
       objectReference: {fileID: 915718096}
+    - target: {fileID: 11400000, guid: 82ec77683ebd84d968046fc2f741eb35, type: 2}
+      propertyPath: fsm.states.Array.data[2].actionData.fsmGameObjectParams.Array.data[0].value
+      value: 
+      objectReference: {fileID: 100000, guid: d13bd9fdf68dc420889b83197dd495df, type: 2}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 82ec77683ebd84d968046fc2f741eb35, type: 2}
   m_RootGameObject: {fileID: 915718096}
@@ -8524,7 +8644,7 @@ MonoBehaviour:
           name: FINISHED
           isSystemEvent: 1
           isGlobal: 0
-        toState: Explode
+        toState: Wait
         linkStyle: 0
         linkConstraint: 0
         colorIndex: 0
@@ -8662,13 +8782,13 @@ MonoBehaviour:
           tooltip: 
           showInInspector: 0
           networkSync: 0
-          value: {fileID: 100000, guid: ef52c75ce532b4044b1f580fc4def912, type: 2}
-        - useVariable: 0
+          value: {fileID: 100000, guid: d13bd9fdf68dc420889b83197dd495df, type: 2}
+        - useVariable: 1
           name: 
           tooltip: 
           showInInspector: 0
           networkSync: 0
-          value: {fileID: 100006, guid: 81a94880974a144e482727dda7398c99, type: 2}
+          value: {fileID: 0}
         - useVariable: 1
           name: 
           tooltip: 
@@ -8685,7 +8805,7 @@ MonoBehaviour:
         fsmStringParams: []
         fsmObjectParams: []
         fsmVarParams: []
-        byteData: 000000000000000000000000010000000000000000000000000100000000000000
+        byteData: 000040400000904100000042000000000000000000000000000100000000000000
         arrayParamSizes: 
         arrayParamTypes: []
         customTypeSizes: 
@@ -8701,6 +8821,60 @@ MonoBehaviour:
         - networkGroup
         paramDataPos: 0000000001000000000000000d000000020000001a0000001c000000
         paramByteDataSize: 00000000000000000d0000000d000000000000000200000005000000
+    - name: Wait
+      description: 
+      colorIndex: 0
+      position:
+        serializedVersion: 2
+        x: 237.967697
+        y: 253.134537
+        width: 100
+        height: 32
+      isBreakpoint: 0
+      isSequence: 0
+      hideUnused: 0
+      transitions:
+      - fsmEvent:
+          name: FINISHED
+          isSystemEvent: 1
+          isGlobal: 0
+        toState: Explode
+        linkStyle: 0
+        linkConstraint: 0
+        colorIndex: 0
+      actionData:
+        actionNames:
+        - HutongGames.PlayMaker.Actions.Wait
+        customNames:
+        - 
+        actionEnabled: 01
+        actionIsOpen: 01
+        actionStartIndex: 00000000
+        actionHashCodes: 3708ec1a
+        unityObjectParams: []
+        fsmGameObjectParams: []
+        fsmOwnerDefaultParams: []
+        animationCurveParams: []
+        functionCallParams: []
+        fsmTemplateControlParams: []
+        fsmEventTargetParams: []
+        fsmPropertyParams: []
+        layoutOptionParams: []
+        fsmStringParams: []
+        fsmObjectParams: []
+        fsmVarParams: []
+        byteData: 0000003f0046494e495348454400
+        arrayParamSizes: 
+        arrayParamTypes: []
+        customTypeSizes: 
+        customTypeNames: []
+        paramDataType: 0f0000001700000001000000
+        paramName:
+        - time
+        - finishEvent
+        - realTime
+        paramDataPos: 00000000050000000d000000
+        paramByteDataSize: 050000000800000001000000
     events:
     - name: FINISHED
       isSystemEvent: 1
@@ -9247,7 +9421,7 @@ MonoBehaviour:
           name: FINISHED
           isSystemEvent: 1
           isGlobal: 0
-        toState: Explode
+        toState: Wait
         linkStyle: 0
         linkConstraint: 0
         colorIndex: 0
@@ -9385,8 +9559,8 @@ MonoBehaviour:
           tooltip: 
           showInInspector: 0
           networkSync: 0
-          value: {fileID: 100000, guid: ef52c75ce532b4044b1f580fc4def912, type: 2}
-        - useVariable: 0
+          value: {fileID: 100000, guid: e76af17a1b63f45faa0da77f1458b4ba, type: 2}
+        - useVariable: 1
           name: 
           tooltip: 
           showInInspector: 0
@@ -9408,7 +9582,7 @@ MonoBehaviour:
         fsmStringParams: []
         fsmObjectParams: []
         fsmVarParams: []
-        byteData: 000000000000000000000000010000000000000000000000000100000000000000
+        byteData: 000040400000904100000042000000000000000000000000000100000000000000
         arrayParamSizes: 
         arrayParamTypes: []
         customTypeSizes: 
@@ -9424,6 +9598,60 @@ MonoBehaviour:
         - networkGroup
         paramDataPos: 0000000001000000000000000d000000020000001a0000001c000000
         paramByteDataSize: 00000000000000000d0000000d000000000000000200000005000000
+    - name: Wait
+      description: 
+      colorIndex: 0
+      position:
+        serializedVersion: 2
+        x: 237.967697
+        y: 253.134537
+        width: 100
+        height: 32
+      isBreakpoint: 0
+      isSequence: 0
+      hideUnused: 0
+      transitions:
+      - fsmEvent:
+          name: FINISHED
+          isSystemEvent: 1
+          isGlobal: 0
+        toState: Explode
+        linkStyle: 0
+        linkConstraint: 0
+        colorIndex: 0
+      actionData:
+        actionNames:
+        - HutongGames.PlayMaker.Actions.Wait
+        customNames:
+        - 
+        actionEnabled: 01
+        actionIsOpen: 01
+        actionStartIndex: 00000000
+        actionHashCodes: 3708ec1a
+        unityObjectParams: []
+        fsmGameObjectParams: []
+        fsmOwnerDefaultParams: []
+        animationCurveParams: []
+        functionCallParams: []
+        fsmTemplateControlParams: []
+        fsmEventTargetParams: []
+        fsmPropertyParams: []
+        layoutOptionParams: []
+        fsmStringParams: []
+        fsmObjectParams: []
+        fsmVarParams: []
+        byteData: 0000003f0046494e495348454400
+        arrayParamSizes: 
+        arrayParamTypes: []
+        customTypeSizes: 
+        customTypeNames: []
+        paramDataType: 0f0000001700000001000000
+        paramName:
+        - time
+        - finishEvent
+        - realTime
+        paramDataPos: 00000000050000000d000000
+        paramByteDataSize: 050000000800000001000000
     events:
     - name: FINISHED
       isSystemEvent: 1
@@ -10564,7 +10792,7 @@ MonoBehaviour:
           name: FINISHED
           isSystemEvent: 1
           isGlobal: 0
-        toState: Explode
+        toState: Wait
         linkStyle: 0
         linkConstraint: 0
         colorIndex: 0
@@ -10702,13 +10930,13 @@ MonoBehaviour:
           tooltip: 
           showInInspector: 0
           networkSync: 0
-          value: {fileID: 100000, guid: ef52c75ce532b4044b1f580fc4def912, type: 2}
-        - useVariable: 0
+          value: {fileID: 100000, guid: b228892542e5b42bdbb84bda8e3d9825, type: 2}
+        - useVariable: 1
           name: 
           tooltip: 
           showInInspector: 0
           networkSync: 0
-          value: {fileID: 100006, guid: 81a94880974a144e482727dda7398c99, type: 2}
+          value: {fileID: 0}
         - useVariable: 1
           name: 
           tooltip: 
@@ -10725,7 +10953,7 @@ MonoBehaviour:
         fsmStringParams: []
         fsmObjectParams: []
         fsmVarParams: []
-        byteData: 000000000000000000000000010000000000000000000000000100000000000000
+        byteData: 000040400000904100000042000000000000000000000000000100000000000000
         arrayParamSizes: 
         arrayParamTypes: []
         customTypeSizes: 
@@ -10741,6 +10969,60 @@ MonoBehaviour:
         - networkGroup
         paramDataPos: 0000000001000000000000000d000000020000001a0000001c000000
         paramByteDataSize: 00000000000000000d0000000d000000000000000200000005000000
+    - name: Wait
+      description: 
+      colorIndex: 0
+      position:
+        serializedVersion: 2
+        x: 237.967697
+        y: 253.134537
+        width: 100
+        height: 32
+      isBreakpoint: 0
+      isSequence: 0
+      hideUnused: 0
+      transitions:
+      - fsmEvent:
+          name: FINISHED
+          isSystemEvent: 1
+          isGlobal: 0
+        toState: Explode
+        linkStyle: 0
+        linkConstraint: 0
+        colorIndex: 0
+      actionData:
+        actionNames:
+        - HutongGames.PlayMaker.Actions.Wait
+        customNames:
+        - 
+        actionEnabled: 01
+        actionIsOpen: 01
+        actionStartIndex: 00000000
+        actionHashCodes: 3708ec1a
+        unityObjectParams: []
+        fsmGameObjectParams: []
+        fsmOwnerDefaultParams: []
+        animationCurveParams: []
+        functionCallParams: []
+        fsmTemplateControlParams: []
+        fsmEventTargetParams: []
+        fsmPropertyParams: []
+        layoutOptionParams: []
+        fsmStringParams: []
+        fsmObjectParams: []
+        fsmVarParams: []
+        byteData: 0000003f0046494e495348454400
+        arrayParamSizes: 
+        arrayParamTypes: []
+        customTypeSizes: 
+        customTypeNames: []
+        paramDataType: 0f0000001700000001000000
+        paramName:
+        - time
+        - finishEvent
+        - realTime
+        paramDataPos: 00000000050000000d000000
+        paramByteDataSize: 050000000800000001000000
     events:
     - name: FINISHED
       isSystemEvent: 1
@@ -10973,6 +11255,10 @@ Prefab:
       propertyPath: fsm.states.Array.data[1].actionData.fsmObjectParams.Array.data[0].value
       value: 
       objectReference: {fileID: 8300000, guid: 6b821567c876f4bdcab8cb9b45f54d22, type: 3}
+    - target: {fileID: 11400000, guid: 82ec77683ebd84d968046fc2f741eb35, type: 2}
+      propertyPath: fsm.states.Array.data[2].actionData.fsmGameObjectParams.Array.data[0].value
+      value: 
+      objectReference: {fileID: 100000, guid: b228892542e5b42bdbb84bda8e3d9825, type: 2}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 82ec77683ebd84d968046fc2f741eb35, type: 2}
   m_RootGameObject: {fileID: 1117767739}
@@ -16495,6 +16781,10 @@ Prefab:
       propertyPath: fsm.states.Array.data[1].actionData.fsmGameObjectParams.Array.data[1].value
       value: 
       objectReference: {fileID: 391747739}
+    - target: {fileID: 11400000, guid: 82ec77683ebd84d968046fc2f741eb35, type: 2}
+      propertyPath: fsm.states.Array.data[2].actionData.fsmGameObjectParams.Array.data[0].value
+      value: 
+      objectReference: {fileID: 100000, guid: cde961fe94e6740d0bc56c59a66fc1c0, type: 2}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 82ec77683ebd84d968046fc2f741eb35, type: 2}
   m_RootGameObject: {fileID: 391747739}
@@ -17463,7 +17753,7 @@ MonoBehaviour:
           name: FINISHED
           isSystemEvent: 1
           isGlobal: 0
-        toState: Explode
+        toState: Wait
         linkStyle: 0
         linkConstraint: 0
         colorIndex: 0
@@ -17601,13 +17891,13 @@ MonoBehaviour:
           tooltip: 
           showInInspector: 0
           networkSync: 0
-          value: {fileID: 100000, guid: ef52c75ce532b4044b1f580fc4def912, type: 2}
-        - useVariable: 0
+          value: {fileID: 100000, guid: c3b3fb2e0a962467c9a7fa30b49019a3, type: 2}
+        - useVariable: 1
           name: 
           tooltip: 
           showInInspector: 0
           networkSync: 0
-          value: {fileID: 100006, guid: 81a94880974a144e482727dda7398c99, type: 2}
+          value: {fileID: 0}
         - useVariable: 1
           name: 
           tooltip: 
@@ -17624,7 +17914,7 @@ MonoBehaviour:
         fsmStringParams: []
         fsmObjectParams: []
         fsmVarParams: []
-        byteData: 000000000000000000000000010000000000000000000000000100000000000000
+        byteData: 000040400000904100000042000000000000000000000000000100000000000000
         arrayParamSizes: 
         arrayParamTypes: []
         customTypeSizes: 
@@ -17640,6 +17930,60 @@ MonoBehaviour:
         - networkGroup
         paramDataPos: 0000000001000000000000000d000000020000001a0000001c000000
         paramByteDataSize: 00000000000000000d0000000d000000000000000200000005000000
+    - name: Wait
+      description: 
+      colorIndex: 0
+      position:
+        serializedVersion: 2
+        x: 237.967697
+        y: 253.134537
+        width: 100
+        height: 32
+      isBreakpoint: 0
+      isSequence: 0
+      hideUnused: 0
+      transitions:
+      - fsmEvent:
+          name: FINISHED
+          isSystemEvent: 1
+          isGlobal: 0
+        toState: Explode
+        linkStyle: 0
+        linkConstraint: 0
+        colorIndex: 0
+      actionData:
+        actionNames:
+        - HutongGames.PlayMaker.Actions.Wait
+        customNames:
+        - 
+        actionEnabled: 01
+        actionIsOpen: 01
+        actionStartIndex: 00000000
+        actionHashCodes: 3708ec1a
+        unityObjectParams: []
+        fsmGameObjectParams: []
+        fsmOwnerDefaultParams: []
+        animationCurveParams: []
+        functionCallParams: []
+        fsmTemplateControlParams: []
+        fsmEventTargetParams: []
+        fsmPropertyParams: []
+        layoutOptionParams: []
+        fsmStringParams: []
+        fsmObjectParams: []
+        fsmVarParams: []
+        byteData: 0000003f0046494e495348454400
+        arrayParamSizes: 
+        arrayParamTypes: []
+        customTypeSizes: 
+        customTypeNames: []
+        paramDataType: 0f0000001700000001000000
+        paramName:
+        - time
+        - finishEvent
+        - realTime
+        paramDataPos: 00000000050000000d000000
+        paramByteDataSize: 050000000800000001000000
     events:
     - name: FINISHED
       isSystemEvent: 1
@@ -17973,7 +18317,7 @@ MonoBehaviour:
           name: FINISHED
           isSystemEvent: 1
           isGlobal: 0
-        toState: Explode
+        toState: Wait
         linkStyle: 0
         linkConstraint: 0
         colorIndex: 0
@@ -18111,8 +18455,8 @@ MonoBehaviour:
           tooltip: 
           showInInspector: 0
           networkSync: 0
-          value: {fileID: 100000, guid: ef52c75ce532b4044b1f580fc4def912, type: 2}
-        - useVariable: 0
+          value: {fileID: 100000, guid: 954e99262644b4336a986a95b8ac14b2, type: 2}
+        - useVariable: 1
           name: 
           tooltip: 
           showInInspector: 0
@@ -18134,7 +18478,7 @@ MonoBehaviour:
         fsmStringParams: []
         fsmObjectParams: []
         fsmVarParams: []
-        byteData: 000000000000000000000000010000000000000000000000000100000000000000
+        byteData: 000040400000904100000042000000000000000000000000000100000000000000
         arrayParamSizes: 
         arrayParamTypes: []
         customTypeSizes: 
@@ -18150,6 +18494,60 @@ MonoBehaviour:
         - networkGroup
         paramDataPos: 0000000001000000000000000d000000020000001a0000001c000000
         paramByteDataSize: 00000000000000000d0000000d000000000000000200000005000000
+    - name: Wait
+      description: 
+      colorIndex: 0
+      position:
+        serializedVersion: 2
+        x: 237.967697
+        y: 253.134537
+        width: 100
+        height: 32
+      isBreakpoint: 0
+      isSequence: 0
+      hideUnused: 0
+      transitions:
+      - fsmEvent:
+          name: FINISHED
+          isSystemEvent: 1
+          isGlobal: 0
+        toState: Explode
+        linkStyle: 0
+        linkConstraint: 0
+        colorIndex: 0
+      actionData:
+        actionNames:
+        - HutongGames.PlayMaker.Actions.Wait
+        customNames:
+        - 
+        actionEnabled: 01
+        actionIsOpen: 01
+        actionStartIndex: 00000000
+        actionHashCodes: 3708ec1a
+        unityObjectParams: []
+        fsmGameObjectParams: []
+        fsmOwnerDefaultParams: []
+        animationCurveParams: []
+        functionCallParams: []
+        fsmTemplateControlParams: []
+        fsmEventTargetParams: []
+        fsmPropertyParams: []
+        layoutOptionParams: []
+        fsmStringParams: []
+        fsmObjectParams: []
+        fsmVarParams: []
+        byteData: 0000003f0046494e495348454400
+        arrayParamSizes: 
+        arrayParamTypes: []
+        customTypeSizes: 
+        customTypeNames: []
+        paramDataType: 0f0000001700000001000000
+        paramName:
+        - time
+        - finishEvent
+        - realTime
+        paramDataPos: 00000000050000000d000000
+        paramByteDataSize: 050000000800000001000000
     events:
     - name: FINISHED
       isSystemEvent: 1
@@ -18309,6 +18707,10 @@ Prefab:
       propertyPath: fsm.showStateLabel
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 11400000, guid: 82ec77683ebd84d968046fc2f741eb35, type: 2}
+      propertyPath: fsm.states.Array.data[2].actionData.fsmGameObjectParams.Array.data[0].value
+      value: 
+      objectReference: {fileID: 100000, guid: e76af17a1b63f45faa0da77f1458b4ba, type: 2}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 82ec77683ebd84d968046fc2f741eb35, type: 2}
   m_RootGameObject: {fileID: 940280659}
@@ -22379,6 +22781,18 @@ Prefab:
       propertyPath: fsm.states.Array.data[1].actionData.fsmGameObjectParams.Array.data[0].value
       value: 
       objectReference: {fileID: 100004, guid: 6034dd1d3d07e4ddebfbd19286593582, type: 2}
+    - target: {fileID: 11400000, guid: 82ec77683ebd84d968046fc2f741eb35, type: 2}
+      propertyPath: fsm.states.Array.data[2].actionData.fsmGameObjectParams.Array.data[0].value
+      value: 
+      objectReference: {fileID: 100000, guid: 20d1bc6a0d05946f1b3d6bad345680c5, type: 2}
+    - target: {fileID: 11400000, guid: 82ec77683ebd84d968046fc2f741eb35, type: 2}
+      propertyPath: fsm.states.Array.data[2].actionData.fsmGameObjectParams.Array.data[1].value
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 11400000, guid: 82ec77683ebd84d968046fc2f741eb35, type: 2}
+      propertyPath: fsm.states.Array.data[2].actionData.fsmGameObjectParams.Array.data[1].useVariable
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 82ec77683ebd84d968046fc2f741eb35, type: 2}
   m_RootGameObject: {fileID: 291011751}
@@ -22892,7 +23306,7 @@ MonoBehaviour:
           name: FINISHED
           isSystemEvent: 1
           isGlobal: 0
-        toState: Explode
+        toState: Wait
         linkStyle: 0
         linkConstraint: 0
         colorIndex: 0
@@ -23031,7 +23445,7 @@ MonoBehaviour:
           showInInspector: 0
           networkSync: 0
           value: {fileID: 100000, guid: ef52c75ce532b4044b1f580fc4def912, type: 2}
-        - useVariable: 0
+        - useVariable: 1
           name: 
           tooltip: 
           showInInspector: 0
@@ -23053,7 +23467,7 @@ MonoBehaviour:
         fsmStringParams: []
         fsmObjectParams: []
         fsmVarParams: []
-        byteData: 000000000000000000000000010000000000000000000000000100000000000000
+        byteData: 000040400000904100000042000000000000000000000000000100000000000000
         arrayParamSizes: 
         arrayParamTypes: []
         customTypeSizes: 
@@ -23069,6 +23483,60 @@ MonoBehaviour:
         - networkGroup
         paramDataPos: 0000000001000000000000000d000000020000001a0000001c000000
         paramByteDataSize: 00000000000000000d0000000d000000000000000200000005000000
+    - name: Wait
+      description: 
+      colorIndex: 0
+      position:
+        serializedVersion: 2
+        x: 237.967697
+        y: 253.134537
+        width: 100
+        height: 32
+      isBreakpoint: 0
+      isSequence: 0
+      hideUnused: 0
+      transitions:
+      - fsmEvent:
+          name: FINISHED
+          isSystemEvent: 1
+          isGlobal: 0
+        toState: Explode
+        linkStyle: 0
+        linkConstraint: 0
+        colorIndex: 0
+      actionData:
+        actionNames:
+        - HutongGames.PlayMaker.Actions.Wait
+        customNames:
+        - 
+        actionEnabled: 01
+        actionIsOpen: 01
+        actionStartIndex: 00000000
+        actionHashCodes: 3708ec1a
+        unityObjectParams: []
+        fsmGameObjectParams: []
+        fsmOwnerDefaultParams: []
+        animationCurveParams: []
+        functionCallParams: []
+        fsmTemplateControlParams: []
+        fsmEventTargetParams: []
+        fsmPropertyParams: []
+        layoutOptionParams: []
+        fsmStringParams: []
+        fsmObjectParams: []
+        fsmVarParams: []
+        byteData: 0000003f0046494e495348454400
+        arrayParamSizes: 
+        arrayParamTypes: []
+        customTypeSizes: 
+        customTypeNames: []
+        paramDataType: 0f0000001700000001000000
+        paramName:
+        - time
+        - finishEvent
+        - realTime
+        paramDataPos: 00000000050000000d000000
+        paramByteDataSize: 050000000800000001000000
     events:
     - name: FINISHED
       isSystemEvent: 1
