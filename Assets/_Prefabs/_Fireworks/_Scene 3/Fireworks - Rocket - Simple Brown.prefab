@@ -45,7 +45,7 @@ GameObject:
   - 198: {fileID: 19800004}
   - 199: {fileID: 19900004}
   m_Layer: 0
-  m_Name: Fireworks - Rocket - Simple Yellow
+  m_Name: Fireworks - Rocket - Simple Brown
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -4345,7 +4345,7 @@ ParticleSystemRenderer:
   m_LightmapIndex: 255
   m_LightmapTilingOffset: {x: 1, y: 1, z: 0, w: 0}
   m_Materials:
-  - {fileID: 2100000, guid: 6f13422b69ade402cacbe028e18f20e6, type: 2}
+  - {fileID: 2100000, guid: 03eb7f4fb74c04676b8e2e701ea5d7dc, type: 2}
   m_SubsetIndices: 
   m_StaticBatchRoot: {fileID: 0}
   m_UseLightProbes: 0
@@ -4405,7 +4405,7 @@ ParticleSystemRenderer:
   m_LightmapIndex: 255
   m_LightmapTilingOffset: {x: 1, y: 1, z: 0, w: 0}
   m_Materials:
-  - {fileID: 2100000, guid: 6f13422b69ade402cacbe028e18f20e6, type: 2}
+  - {fileID: 2100000, guid: 03eb7f4fb74c04676b8e2e701ea5d7dc, type: 2}
   m_SubsetIndices: 
   m_StaticBatchRoot: {fileID: 0}
   m_UseLightProbes: 0

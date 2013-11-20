@@ -6,7 +6,7 @@ Material:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
-  m_Name: Fireworks - Yellow - Additive
+  m_Name: Fireworks - Yellow - Add
   m_Shader: {fileID: 200, guid: 0000000000000000f000000000000000, type: 0}
   m_ShaderKeywords: []
   m_SavedProperties:
@@ -32,4 +32,4 @@ Material:
       data:
         first:
           name: _TintColor
-        second: {r: .992647052, g: .895999908, b: .116782002, a: .501960814}
+        second: {r: .977941155, g: .953145504, b: .0790982023, a: .501960814}
