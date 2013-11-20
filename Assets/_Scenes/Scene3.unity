@@ -5107,7 +5107,7 @@ Transform:
   m_LocalPosition: {x: -.491464376, y: -1.89648104, z: -4.92268085}
   m_LocalScale: {x: 117.187645, y: .400000006, z: 5}
   m_Children: []
-  m_Father: {fileID: 0}
+  m_Father: {fileID: 1498136337}
 --- !u!23 &484344079
 Renderer:
   m_ObjectHideFlags: 0
@@ -7755,9 +7755,9 @@ Transform:
   m_GameObject: {fileID: 783466993}
   m_LocalRotation: {x: 0, y: .951439142, z: 0, w: .307837039}
   m_LocalPosition: {x: -5.84429502, y: .314770699, z: -3.33864665}
-  m_LocalScale: {x: 1.27654779, y: 3.80986023, z: .0376715586}
+  m_LocalScale: {x: 1.27654779, y: 3.80986023, z: .0376715623}
   m_Children: []
-  m_Father: {fileID: 0}
+  m_Father: {fileID: 1498136337}
 --- !u!1 &798868956
 GameObject:
   m_ObjectHideFlags: 0
@@ -10118,14 +10118,12 @@ MonoBehaviour:
       actionData:
         actionNames:
         - HutongGames.PlayMaker.Actions.MoveTowards
-        - HutongGames.PlayMaker.Actions.LookAt
         customNames:
         - 
-        - 
-        actionEnabled: 0100
-        actionIsOpen: 0101
-        actionStartIndex: 0000000007000000
-        actionHashCodes: b509599ab36ac7f2
+        actionEnabled: 01
+        actionIsOpen: 01
+        actionStartIndex: 00000000
+        actionHashCodes: b509599a
         unityObjectParams: []
         fsmGameObjectParams:
         - useVariable: 0
@@ -10134,21 +10132,7 @@ MonoBehaviour:
           showInInspector: 0
           networkSync: 0
           value: {fileID: 0}
-        - useVariable: 0
-          name: 
-          tooltip: 
-          showInInspector: 0
-          networkSync: 0
-          value: {fileID: 2027038013}
         fsmOwnerDefaultParams:
-        - ownerOption: 0
-          gameObject:
-            useVariable: 0
-            name: 
-            tooltip: 
-            showInInspector: 0
-            networkSync: 0
-            value: {fileID: 0}
         - ownerOption: 0
           gameObject:
             useVariable: 0
@@ -10166,12 +10150,12 @@ MonoBehaviour:
         fsmStringParams: []
         fsmObjectParams: []
         fsmVarParams: []
-        byteData: 0000000000000000000020c100000000004040000000803f0046494e49534845440000000000000000000000000100000000000000000000000001010000000000803feceb6b3f8180803c0000803f0001
+        byteData: 0000000000000000000020c100000000004040000000803f0046494e4953484544
         arrayParamSizes: 
         arrayParamTypes: []
         customTypeSizes: 
         customTypeNames: []
-        paramDataType: 14000000130000001c000000110000000f0000000f0000001700000014000000130000001c0000001c00000011000000110000001900000001000000
+        paramDataType: 14000000130000001c000000110000000f0000000f00000017000000
         paramName:
         - gameObject
         - targetObject
@@ -10180,16 +10164,8 @@ MonoBehaviour:
         - maxSpeed
         - finishDistance
         - finishEvent
-        - gameObject
-        - targetObject
-        - targetPosition
-        - upVector
-        - keepVertical
-        - debug
-        - debugLineColor
-        - everyFrame
-        paramDataPos: 0000000000000000000000000d0000000f00000014000000190000000100000001000000210000002e0000003b0000003d0000003f00000050000000
-        paramByteDataSize: 00000000000000000d0000000200000005000000050000000800000000000000000000000d0000000d00000002000000020000001100000001000000
+        paramDataPos: 0000000000000000000000000d0000000f0000001400000019000000
+        paramByteDataSize: 00000000000000000d00000002000000050000000500000008000000
     - name: Idle
       description: 
       colorIndex: 0
@@ -16402,6 +16378,34 @@ MonoBehaviour:
   relativeOffset: {x: 0, y: .100000001}
   pixelOffset: {x: 0, y: 0}
   widgetContainer: {fileID: 0}
+--- !u!1 &1498136336
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 1498136337}
+  m_Layer: 0
+  m_Name: Foreground Objects
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1498136337
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1498136336}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 484344078}
+  - {fileID: 783466997}
+  m_Father: {fileID: 0}
 --- !u!1 &1503313250
 GameObject:
   m_ObjectHideFlags: 0
@@ -23215,72 +23219,6 @@ Prefab:
   m_RootGameObject: {fileID: 66965266}
   m_IsPrefabParent: 0
   m_IsExploded: 1
---- !u!1 &2027038013
-GameObject:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  serializedVersion: 4
-  m_Component:
-  - 4: {fileID: 2027038017}
-  - 33: {fileID: 2027038016}
-  - 65: {fileID: 2027038015}
-  - 23: {fileID: 2027038014}
-  m_Layer: 0
-  m_Name: Cube
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!23 &2027038014
-Renderer:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 2027038013}
-  m_Enabled: 0
-  m_CastShadows: 1
-  m_ReceiveShadows: 1
-  m_LightmapIndex: 255
-  m_LightmapTilingOffset: {x: 1, y: 1, z: 0, w: 0}
-  m_Materials:
-  - {fileID: 10302, guid: 0000000000000000f000000000000000, type: 0}
-  m_SubsetIndices: 
-  m_StaticBatchRoot: {fileID: 0}
-  m_UseLightProbes: 0
-  m_LightProbeAnchor: {fileID: 0}
-  m_ScaleInLightmap: 1
---- !u!65 &2027038015
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 2027038013}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 0
-  serializedVersion: 2
-  m_Size: {x: 1, y: 1, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
---- !u!33 &2027038016
-MeshFilter:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 2027038013}
-  m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
---- !u!4 &2027038017
-Transform:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 2027038013}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -.624964714, y: 8.14353561, z: 5.70813179}
-  m_LocalScale: {x: 1.69348836, y: 1.69348836, z: 1.69348836}
-  m_Children: []
-  m_Father: {fileID: 0}
 --- !u!1 &2036514135
 GameObject:
   m_ObjectHideFlags: 0
