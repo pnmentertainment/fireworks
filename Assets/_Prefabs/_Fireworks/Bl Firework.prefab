@@ -328,6 +328,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_EditorClassIdentifier: 
+  m_EditorClassIdentifier: 
   m_fUserTag: 0
   m_bWorldSpace: 0
   m_vRotationValue: {x: 0, y: 0, z: 1000}
@@ -596,7 +597,7 @@ MonoBehaviour:
         - 
         - 
         - 
-        actionEnabled: 01010101
+        actionEnabled: 01000101
         actionIsOpen: 01010101
         actionStartIndex: 00000000070000000e00000015000000
         actionHashCodes: ac65eef1ac65eef1a290608e2c979284

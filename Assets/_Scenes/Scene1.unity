@@ -626,6 +626,13 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_EditorClassIdentifier: 
   m_EditorClassIdentifier: 
+  m_EditorClassIdentifier: 
+  m_EditorClassIdentifier: 
+  m_EditorClassIdentifier: 
+  m_EditorClassIdentifier: 
+  m_EditorClassIdentifier: 
+  m_EditorClassIdentifier: 
+  m_EditorClassIdentifier: 
 --- !u!1 &81856705
 GameObject:
   m_ObjectHideFlags: 0
@@ -3862,62 +3869,6 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
---- !u!1001 &304038351
-Prefab:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    m_TransformParent: {fileID: 0}
-    m_Modifications:
-    - target: {fileID: 400000, guid: 82ec77683ebd84d968046fc2f741eb35, type: 2}
-      propertyPath: m_LocalPosition.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 400000, guid: 82ec77683ebd84d968046fc2f741eb35, type: 2}
-      propertyPath: m_LocalPosition.y
-      value: -39.9239426
-      objectReference: {fileID: 0}
-    - target: {fileID: 400000, guid: 82ec77683ebd84d968046fc2f741eb35, type: 2}
-      propertyPath: m_LocalPosition.z
-      value: 120
-      objectReference: {fileID: 0}
-    - target: {fileID: 400000, guid: 82ec77683ebd84d968046fc2f741eb35, type: 2}
-      propertyPath: m_LocalRotation.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 400000, guid: 82ec77683ebd84d968046fc2f741eb35, type: 2}
-      propertyPath: m_LocalRotation.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 400000, guid: 82ec77683ebd84d968046fc2f741eb35, type: 2}
-      propertyPath: m_LocalRotation.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 400000, guid: 82ec77683ebd84d968046fc2f741eb35, type: 2}
-      propertyPath: m_LocalRotation.w
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 11400000, guid: 82ec77683ebd84d968046fc2f741eb35, type: 2}
-      propertyPath: fsm.states.Array.data[1].actionData.fsmGameObjectParams.Array.data[1].value
-      value: 
-      objectReference: {fileID: 1745419689}
-    - target: {fileID: 100000, guid: 82ec77683ebd84d968046fc2f741eb35, type: 2}
-      propertyPath: m_Name
-      value: FW Controller Yellow
-      objectReference: {fileID: 0}
-    - target: {fileID: 11400000, guid: 82ec77683ebd84d968046fc2f741eb35, type: 2}
-      propertyPath: fsm.states.Array.data[2].actionData.fsmGameObjectParams.Array.data[1].value
-      value: 
-      objectReference: {fileID: 0}
-    - target: {fileID: 11400000, guid: 82ec77683ebd84d968046fc2f741eb35, type: 2}
-      propertyPath: fsm.showStateLabel
-      value: 0
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
-  m_ParentPrefab: {fileID: 100100000, guid: 82ec77683ebd84d968046fc2f741eb35, type: 2}
-  m_RootGameObject: {fileID: 1745419689}
-  m_IsPrefabParent: 0
-  m_IsExploded: 1
 --- !u!1 &311685494
 GameObject:
   m_ObjectHideFlags: 0
@@ -4726,7 +4677,7 @@ MonoBehaviour:
           typeName: UnityEngine.AudioClip
           value: {fileID: 8300000, guid: cc2f925fc4f2b4b8485c81c1bfb224e8, type: 3}
         fsmVarParams: []
-        byteData: 0000803f000000803f00000040c000000040400000000000014657446972656374696f6e0000000000000000000000000100000000014657446972656374696f6e0000b04100000020c10000000000010100000000c03f0046494e495348454401
+        byteData: 0000803f000000803f00000040c000000040400000000000014657446972656374696f6e0000000000000000000000000100000000014657446972656374696f6e0000904100000020c10000000000010100000000c03f0046494e495348454401
         arrayParamSizes: 
         arrayParamTypes: []
         customTypeSizes: 
@@ -4791,7 +4742,7 @@ MonoBehaviour:
         - 
         - 
         - 
-        actionEnabled: 01010101
+        actionEnabled: 01000101
         actionIsOpen: 01010101
         actionStartIndex: 00000000070000000e00000015000000
         actionHashCodes: ac65eef1ac65eef1a290608e2c979284
@@ -6163,6 +6114,13 @@ MonoBehaviour:
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 4c30c5ba201d3254a8a5d9027c487023, type: 3}
   m_Name: 
+  m_EditorClassIdentifier: 
+  m_EditorClassIdentifier: 
+  m_EditorClassIdentifier: 
+  m_EditorClassIdentifier: 
+  m_EditorClassIdentifier: 
+  m_EditorClassIdentifier: 
+  m_EditorClassIdentifier: 
   m_EditorClassIdentifier: 
   m_EditorClassIdentifier: 
   m_EditorClassIdentifier: 
@@ -7911,66 +7869,6 @@ Transform:
   - {fileID: 64753394}
   - {fileID: 1971541117}
   m_Father: {fileID: 0}
---- !u!1001 &803059157
-Prefab:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    m_TransformParent: {fileID: 0}
-    m_Modifications:
-    - target: {fileID: 400000, guid: 82ec77683ebd84d968046fc2f741eb35, type: 2}
-      propertyPath: m_LocalPosition.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 400000, guid: 82ec77683ebd84d968046fc2f741eb35, type: 2}
-      propertyPath: m_LocalPosition.y
-      value: -40
-      objectReference: {fileID: 0}
-    - target: {fileID: 400000, guid: 82ec77683ebd84d968046fc2f741eb35, type: 2}
-      propertyPath: m_LocalPosition.z
-      value: 60
-      objectReference: {fileID: 0}
-    - target: {fileID: 400000, guid: 82ec77683ebd84d968046fc2f741eb35, type: 2}
-      propertyPath: m_LocalRotation.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 400000, guid: 82ec77683ebd84d968046fc2f741eb35, type: 2}
-      propertyPath: m_LocalRotation.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 400000, guid: 82ec77683ebd84d968046fc2f741eb35, type: 2}
-      propertyPath: m_LocalRotation.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 400000, guid: 82ec77683ebd84d968046fc2f741eb35, type: 2}
-      propertyPath: m_LocalRotation.w
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 100000, guid: 82ec77683ebd84d968046fc2f741eb35, type: 2}
-      propertyPath: m_Name
-      value: FW Controller Red
-      objectReference: {fileID: 0}
-    - target: {fileID: 11400000, guid: 82ec77683ebd84d968046fc2f741eb35, type: 2}
-      propertyPath: fsm.states.Array.data[1].actionData.fsmGameObjectParams.Array.data[0].value
-      value: 
-      objectReference: {fileID: 100004, guid: cc83722edc8c742faa3faf7cb83ce0b7, type: 2}
-    - target: {fileID: 11400000, guid: 82ec77683ebd84d968046fc2f741eb35, type: 2}
-      propertyPath: fsm.states.Array.data[1].actionData.fsmGameObjectParams.Array.data[1].value
-      value: 
-      objectReference: {fileID: 2036514135}
-    - target: {fileID: 11400000, guid: 82ec77683ebd84d968046fc2f741eb35, type: 2}
-      propertyPath: fsm.states.Array.data[2].actionData.fsmGameObjectParams.Array.data[1].value
-      value: 
-      objectReference: {fileID: 0}
-    - target: {fileID: 11400000, guid: 82ec77683ebd84d968046fc2f741eb35, type: 2}
-      propertyPath: fsm.showStateLabel
-      value: 0
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
-  m_ParentPrefab: {fileID: 100100000, guid: 82ec77683ebd84d968046fc2f741eb35, type: 2}
-  m_RootGameObject: {fileID: 2036514135}
-  m_IsPrefabParent: 0
-  m_IsExploded: 1
 --- !u!1 &810482495
 GameObject:
   m_ObjectHideFlags: 0
@@ -8306,7 +8204,7 @@ MonoBehaviour:
           typeName: UnityEngine.AudioClip
           value: {fileID: 8300000, guid: cc2f925fc4f2b4b8485c81c1bfb224e8, type: 3}
         fsmVarParams: []
-        byteData: 0000803f000000803f00000040c000000040400000000000014657446972656374696f6e0000000000000000000000000100000000014657446972656374696f6e0000b04100000020c10000000000010100000000c03f0046494e495348454401
+        byteData: 0000803f000000803f00000040c000000040400000000000014657446972656374696f6e0000000000000000000000000100000000014657446972656374696f6e0000904100000020c10000000000010100000000c03f0046494e495348454401
         arrayParamSizes: 
         arrayParamTypes: []
         customTypeSizes: 
@@ -8371,7 +8269,7 @@ MonoBehaviour:
         - 
         - 
         - 
-        actionEnabled: 01010101
+        actionEnabled: 01000101
         actionIsOpen: 01010101
         actionStartIndex: 00000000070000000e00000015000000
         actionHashCodes: ac65eef1ac65eef1a290608e2c979284
@@ -8566,72 +8464,6 @@ MeshFilter:
   m_PrefabInternal: {fileID: 1131856473}
   m_GameObject: {fileID: 810482495}
   m_Mesh: {fileID: 10207, guid: 0000000000000000e000000000000000, type: 0}
---- !u!1 &812450545
-GameObject:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  serializedVersion: 4
-  m_Component:
-  - 4: {fileID: 812450549}
-  - 33: {fileID: 812450548}
-  - 135: {fileID: 812450547}
-  - 23: {fileID: 812450546}
-  m_Layer: 0
-  m_Name: Sphere
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!23 &812450546
-Renderer:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 812450545}
-  m_Enabled: 1
-  m_CastShadows: 1
-  m_ReceiveShadows: 1
-  m_LightmapIndex: 255
-  m_LightmapTilingOffset: {x: 1, y: 1, z: 0, w: 0}
-  m_Materials:
-  - {fileID: 10302, guid: 0000000000000000f000000000000000, type: 0}
-  m_SubsetIndices: 
-  m_StaticBatchRoot: {fileID: 0}
-  m_UseLightProbes: 0
-  m_LightProbeAnchor: {fileID: 0}
-  m_ScaleInLightmap: 1
---- !u!135 &812450547
-SphereCollider:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 812450545}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Radius: .5
-  m_Center: {x: 0, y: 0, z: 0}
---- !u!33 &812450548
-MeshFilter:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 812450545}
-  m_Mesh: {fileID: 10207, guid: 0000000000000000e000000000000000, type: 0}
---- !u!4 &812450549
-Transform:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 812450545}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -9.05806732, y: 10.1243248, z: 10.0628605}
-  m_LocalScale: {x: .200000003, y: .200000003, z: .200000003}
-  m_Children: []
-  m_Father: {fileID: 0}
 --- !u!1 &818929130
 GameObject:
   m_ObjectHideFlags: 0
@@ -8825,6 +8657,13 @@ MonoBehaviour:
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 4c30c5ba201d3254a8a5d9027c487023, type: 3}
   m_Name: 
+  m_EditorClassIdentifier: 
+  m_EditorClassIdentifier: 
+  m_EditorClassIdentifier: 
+  m_EditorClassIdentifier: 
+  m_EditorClassIdentifier: 
+  m_EditorClassIdentifier: 
+  m_EditorClassIdentifier: 
   m_EditorClassIdentifier: 
   m_EditorClassIdentifier: 
   m_EditorClassIdentifier: 
@@ -9355,387 +9194,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   ExtensibleKinematic: 0
---- !u!1 &940280659
-GameObject:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 100000, guid: 82ec77683ebd84d968046fc2f741eb35, type: 2}
-  m_PrefabInternal: {fileID: 1752197344}
-  serializedVersion: 4
-  m_Component:
-  - 4: {fileID: 940280661}
-  - 114: {fileID: 940280660}
-  - 82: {fileID: 940280662}
-  m_Layer: 0
-  m_Name: FW Controller Green
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!114 &940280660
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 11400000, guid: 82ec77683ebd84d968046fc2f741eb35,
-    type: 2}
-  m_PrefabInternal: {fileID: 1752197344}
-  m_GameObject: {fileID: 940280659}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 1384774831, guid: e743331561ef77147ae48cda9bcb8209, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  fsm:
-    usedInTemplate: {fileID: 0}
-    name: FSM
-    startState: Idle
-    states:
-    - name: Idle
-      description: 
-      colorIndex: 0
-      position:
-        serializedVersion: 2
-        x: 50
-        y: 100
-        width: 117
-        height: 32
-      isBreakpoint: 0
-      isSequence: 0
-      hideUnused: 0
-      transitions:
-      - fsmEvent:
-          name: LAUNCHPURPLE
-          isSystemEvent: 0
-          isGlobal: 1
-        toState: Launched
-        linkStyle: 0
-        linkConstraint: 0
-        colorIndex: 0
-      actionData:
-        actionNames: []
-        customNames: []
-        actionEnabled: 
-        actionIsOpen: 
-        actionStartIndex: 
-        actionHashCodes: 
-        unityObjectParams: []
-        fsmGameObjectParams: []
-        fsmOwnerDefaultParams: []
-        animationCurveParams: []
-        functionCallParams: []
-        fsmTemplateControlParams: []
-        fsmEventTargetParams: []
-        fsmPropertyParams: []
-        layoutOptionParams: []
-        fsmStringParams: []
-        fsmObjectParams: []
-        fsmVarParams: []
-        byteData: 
-        arrayParamSizes: 
-        arrayParamTypes: []
-        customTypeSizes: 
-        customTypeNames: []
-        paramDataType: 
-        paramName: []
-        paramDataPos: 
-        paramByteDataSize: 
-    - name: Launched
-      description: 
-      colorIndex: 0
-      position:
-        serializedVersion: 2
-        x: 235
-        y: 160
-        width: 100
-        height: 32
-      isBreakpoint: 0
-      isSequence: 0
-      hideUnused: 0
-      transitions:
-      - fsmEvent:
-          name: FINISHED
-          isSystemEvent: 1
-          isGlobal: 0
-        toState: Explode
-        linkStyle: 0
-        linkConstraint: 0
-        colorIndex: 0
-      actionData:
-        actionNames:
-        - HutongGames.PlayMaker.Actions.AudioPlay
-        - HutongGames.PlayMaker.Actions.AudioPlay
-        - HutongGames.PlayMaker.Actions.CreateObject
-        customNames:
-        - 
-        - 
-        - 
-        actionEnabled: 010101
-        actionIsOpen: 010101
-        actionStartIndex: 000000000400000008000000
-        actionHashCodes: ef9258deef9258deac65eef1
-        unityObjectParams: []
-        fsmGameObjectParams:
-        - useVariable: 0
-          name: 
-          tooltip: 
-          showInInspector: 0
-          networkSync: 0
-          value: {fileID: 100004, guid: 1fa04169fe2e149fabfc7747edb685c2, type: 2}
-        - useVariable: 0
-          name: 
-          tooltip: 
-          showInInspector: 0
-          networkSync: 0
-          value: {fileID: 940280659}
-        - useVariable: 1
-          name: 
-          tooltip: 
-          showInInspector: 0
-          networkSync: 0
-          value: {fileID: 0}
-        fsmOwnerDefaultParams:
-        - ownerOption: 0
-          gameObject:
-            useVariable: 0
-            name: 
-            tooltip: 
-            showInInspector: 0
-            networkSync: 0
-            value: {fileID: 0}
-        - ownerOption: 0
-          gameObject:
-            useVariable: 0
-            name: 
-            tooltip: 
-            showInInspector: 0
-            networkSync: 0
-            value: {fileID: 0}
-        animationCurveParams: []
-        functionCallParams: []
-        fsmTemplateControlParams: []
-        fsmEventTargetParams: []
-        fsmPropertyParams: []
-        layoutOptionParams: []
-        fsmStringParams: []
-        fsmObjectParams:
-        - useVariable: 0
-          name: 
-          tooltip: 
-          showInInspector: 0
-          networkSync: 0
-          typeName: UnityEngine.AudioClip
-          value: {fileID: 8300000, guid: 6b821567c876f4bdcab8cb9b45f54d22, type: 3}
-        - useVariable: 0
-          name: 
-          tooltip: 
-          showInInspector: 0
-          networkSync: 0
-          typeName: UnityEngine.AudioClip
-          value: {fileID: 8300000, guid: cc2f925fc4f2b4b8485c81c1bfb224e8, type: 3}
-        fsmVarParams: []
-        byteData: 00002041000000204100000000000000000000000000010000000000000000000000000100000000000000
-        arrayParamSizes: 
-        arrayParamTypes: []
-        customTypeSizes: 
-        customTypeNames: []
-        paramDataType: 140000000f0000001800000017000000140000000f000000180000001700000013000000130000001c0000001c000000130000001100000010000000
-        paramName:
-        - gameObject
-        - volume
-        - oneShotClip
-        - finishedEvent
-        - gameObject
-        - volume
-        - oneShotClip
-        - finishedEvent
-        - gameObject
-        - spawnPoint
-        - position
-        - rotation
-        - storeObject
-        - networkInstantiate
-        - networkGroup
-        paramDataPos: 000000000000000000000000050000000100000005000000010000000a00000000000000010000000a00000017000000020000002400000026000000
-        paramByteDataSize: 000000000500000000000000000000000000000005000000000000000000000000000000000000000d0000000d000000000000000200000005000000
-    - name: Explode
-      description: 
-      colorIndex: 0
-      position:
-        serializedVersion: 2
-        x: 69
-        y: 232
-        width: 100
-        height: 32
-      isBreakpoint: 0
-      isSequence: 0
-      hideUnused: 0
-      transitions:
-      - fsmEvent:
-          name: FINISHED
-          isSystemEvent: 1
-          isGlobal: 0
-        toState: Idle
-        linkStyle: 0
-        linkConstraint: 0
-        colorIndex: 0
-      actionData:
-        actionNames:
-        - HutongGames.PlayMaker.Actions.CreateObject
-        customNames:
-        - 
-        actionEnabled: 01
-        actionIsOpen: 01
-        actionStartIndex: 00000000
-        actionHashCodes: ac65eef1
-        unityObjectParams: []
-        fsmGameObjectParams:
-        - useVariable: 0
-          name: 
-          tooltip: 
-          showInInspector: 0
-          networkSync: 0
-          value: {fileID: 100000, guid: ef52c75ce532b4044b1f580fc4def912, type: 2}
-        - useVariable: 0
-          name: 
-          tooltip: 
-          showInInspector: 0
-          networkSync: 0
-          value: {fileID: 0}
-        - useVariable: 1
-          name: 
-          tooltip: 
-          showInInspector: 0
-          networkSync: 0
-          value: {fileID: 0}
-        fsmOwnerDefaultParams: []
-        animationCurveParams: []
-        functionCallParams: []
-        fsmTemplateControlParams: []
-        fsmEventTargetParams: []
-        fsmPropertyParams: []
-        layoutOptionParams: []
-        fsmStringParams: []
-        fsmObjectParams: []
-        fsmVarParams: []
-        byteData: 000000000000000000000000010000000000000000000000000100000000000000
-        arrayParamSizes: 
-        arrayParamTypes: []
-        customTypeSizes: 
-        customTypeNames: []
-        paramDataType: 13000000130000001c0000001c000000130000001100000010000000
-        paramName:
-        - gameObject
-        - spawnPoint
-        - position
-        - rotation
-        - storeObject
-        - networkInstantiate
-        - networkGroup
-        paramDataPos: 0000000001000000000000000d000000020000001a0000001c000000
-        paramByteDataSize: 00000000000000000d0000000d000000000000000200000005000000
-    events:
-    - name: FINISHED
-      isSystemEvent: 1
-      isGlobal: 0
-    - name: LAUNCHPURPLE
-      isSystemEvent: 0
-      isGlobal: 1
-    globalTransitions: []
-    variables:
-      floatVariables: []
-      intVariables: []
-      boolVariables: []
-      stringVariables: []
-      vector2Variables: []
-      vector3Variables: []
-      colorVariables: []
-      rectVariables: []
-      quaternionVariables: []
-      gameObjectVariables: []
-      objectVariables: []
-      materialVariables: []
-      textureVariables: []
-    description: 
-    docUrl: 
-    showStateLabel: 0
-    maxLoopCount: 0
-    watermark: 
-    version: 0
-    ExposedEvents: []
-    RestartOnEnable: 1
-    EnableDebugFlow: 0
-    StepFrame: 0
-    activeStateName: 
-  fsmTemplate: {fileID: 0}
---- !u!4 &940280661
-Transform:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 400000, guid: 82ec77683ebd84d968046fc2f741eb35, type: 2}
-  m_PrefabInternal: {fileID: 1752197344}
-  m_GameObject: {fileID: 940280659}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: -40, z: 120}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 0}
---- !u!82 &940280662
-AudioSource:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 8200000, guid: 82ec77683ebd84d968046fc2f741eb35,
-    type: 2}
-  m_PrefabInternal: {fileID: 1752197344}
-  m_GameObject: {fileID: 940280659}
-  m_Enabled: 1
-  serializedVersion: 3
-  m_audioClip: {fileID: 8300000, guid: 6ebbb773c38314f3584c8588d1b8b91e, type: 3}
-  m_PlayOnAwake: 0
-  m_Volume: 1
-  m_Pitch: 1
-  Loop: 0
-  Mute: 0
-  Priority: 128
-  DopplerLevel: 1
-  MinDistance: 1
-  MaxDistance: 500
-  Pan2D: 0
-  rolloffMode: 0
-  BypassEffects: 0
-  BypassListenerEffects: 0
-  BypassReverbZones: 0
-  rolloffCustomCurve:
-    serializedVersion: 2
-    m_Curve:
-    - time: 0
-      value: 1
-      inSlope: 0
-      outSlope: 0
-      tangentMode: 0
-    - time: 1
-      value: 0
-      inSlope: 0
-      outSlope: 0
-      tangentMode: 0
-    m_PreInfinity: 2
-    m_PostInfinity: 2
-  panLevelCustomCurve:
-    serializedVersion: 2
-    m_Curve:
-    - time: 0
-      value: 1
-      inSlope: 0
-      outSlope: 0
-      tangentMode: 0
-    m_PreInfinity: 2
-    m_PostInfinity: 2
-  spreadCustomCurve:
-    serializedVersion: 2
-    m_Curve:
-    - time: 0
-      value: 0
-      inSlope: 0
-      outSlope: 0
-      tangentMode: 0
-    m_PreInfinity: 2
-    m_PostInfinity: 2
 --- !u!1 &941019136
 GameObject:
   m_ObjectHideFlags: 0
@@ -9954,7 +9412,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 100006, guid: caacc3c1334df46ffb04586c22cdd7f4, type: 2}
       propertyPath: m_Name
-      value: Purp Firework
+      value: Firework Purple
       objectReference: {fileID: 0}
     - target: {fileID: 11400004, guid: caacc3c1334df46ffb04586c22cdd7f4, type: 2}
       propertyPath: fsm.states.Array.data[1].actionData.actionIsOpen.Array.data[1]
@@ -11110,6 +10568,10 @@ Prefab:
       propertyPath: fsm.states.Array.data[2].actionData.paramByteDataSize.Array.data[21]
       value: 23
       objectReference: {fileID: 0}
+    - target: {fileID: 100006, guid: 81a94880974a144e482727dda7398c99, type: 2}
+      propertyPath: m_Name
+      value: Firework Pink
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 81a94880974a144e482727dda7398c99, type: 2}
   m_RootGameObject: {fileID: 1526376573}
@@ -11800,7 +11262,7 @@ MonoBehaviour:
           typeName: UnityEngine.AudioClip
           value: {fileID: 8300000, guid: cc2f925fc4f2b4b8485c81c1bfb224e8, type: 3}
         fsmVarParams: []
-        byteData: 0000803f000000803f00000040c000000040400000000000014657446972656374696f6e0000000000000000000000000100000000014657446972656374696f6e0000b04100000020c10000000000010100000000c03f0046494e495348454401
+        byteData: 0000803f000000803f00000040c000000040400000000000014657446972656374696f6e0000000000000000000000000100000000014657446972656374696f6e0000904100000020c10000000000010100000000c03f0046494e495348454401
         arrayParamSizes: 
         arrayParamTypes: []
         customTypeSizes: 
@@ -11865,7 +11327,7 @@ MonoBehaviour:
         - 
         - 
         - 
-        actionEnabled: 01010101
+        actionEnabled: 01000101
         actionIsOpen: 01010101
         actionStartIndex: 00000000070000000e00000015000000
         actionHashCodes: ac65eef1ac65eef1a290608e2c979284
@@ -12092,6 +11554,13 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_EditorClassIdentifier: 
   m_EditorClassIdentifier: 
+  m_EditorClassIdentifier: 
+  m_EditorClassIdentifier: 
+  m_EditorClassIdentifier: 
+  m_EditorClassIdentifier: 
+  m_EditorClassIdentifier: 
+  m_EditorClassIdentifier: 
+  m_EditorClassIdentifier: 
 --- !u!4 &1193753168
 Transform:
   m_ObjectHideFlags: 0
@@ -12267,6 +11736,13 @@ MonoBehaviour:
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 4c30c5ba201d3254a8a5d9027c487023, type: 3}
   m_Name: 
+  m_EditorClassIdentifier: 
+  m_EditorClassIdentifier: 
+  m_EditorClassIdentifier: 
+  m_EditorClassIdentifier: 
+  m_EditorClassIdentifier: 
+  m_EditorClassIdentifier: 
+  m_EditorClassIdentifier: 
   m_EditorClassIdentifier: 
   m_EditorClassIdentifier: 
   m_EditorClassIdentifier: 
@@ -12614,6 +12090,10 @@ Prefab:
       propertyPath: fsm.states.Array.data[2].actionData.fsmGameObjectParams.Array.data[4].value
       value: 
       objectReference: {fileID: 100000, guid: d13bd9fdf68dc420889b83197dd495df, type: 2}
+    - target: {fileID: 100006, guid: 5857c21d5faf9486ebdb32aaded61bd9, type: 2}
+      propertyPath: m_Name
+      value: Firework Blue
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 5857c21d5faf9486ebdb32aaded61bd9, type: 2}
   m_RootGameObject: {fileID: 2000015608}
@@ -14032,7 +13512,7 @@ MonoBehaviour:
           typeName: UnityEngine.AudioClip
           value: {fileID: 8300000, guid: cc2f925fc4f2b4b8485c81c1bfb224e8, type: 3}
         fsmVarParams: []
-        byteData: 0000803f000000803f00000040c000000040400000000000014657446972656374696f6e0000000000000000000000000100000000014657446972656374696f6e0000b04100000020c10000000000010100000000c03f0046494e495348454401
+        byteData: 0000803f000000803f00000040c000000040400000000000014657446972656374696f6e0000000000000000000000000100000000014657446972656374696f6e0000904100000020c10000000000010100000000c03f0046494e495348454401
         arrayParamSizes: 
         arrayParamTypes: []
         customTypeSizes: 
@@ -14097,7 +13577,7 @@ MonoBehaviour:
         - 
         - 
         - 
-        actionEnabled: 01010101
+        actionEnabled: 01000101
         actionIsOpen: 01010101
         actionStartIndex: 00000000070000000e00000015000000
         actionHashCodes: ac65eef1ac65eef1a290608e2c979284
@@ -14405,7 +13885,7 @@ GameObject:
   - 82: {fileID: 1526376576}
   - 114: {fileID: 1526376575}
   m_Layer: 0
-  m_Name: Pink Firework
+  m_Name: Firework Pink
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -14788,7 +14268,7 @@ MonoBehaviour:
         - 
         - 
         - 
-        actionEnabled: 01010101
+        actionEnabled: 01000101
         actionIsOpen: 01010101
         actionStartIndex: 00000000070000000e00000015000000
         actionHashCodes: ac65eef1ac65eef1a290608e2c979284
@@ -17825,6 +17305,13 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_EditorClassIdentifier: 
   m_EditorClassIdentifier: 
+  m_EditorClassIdentifier: 
+  m_EditorClassIdentifier: 
+  m_EditorClassIdentifier: 
+  m_EditorClassIdentifier: 
+  m_EditorClassIdentifier: 
+  m_EditorClassIdentifier: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1590233520
 GameObject:
   m_ObjectHideFlags: 0
@@ -18644,447 +18131,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   ExtensibleKinematic: 0
---- !u!1 &1745419689
-GameObject:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 100000, guid: 82ec77683ebd84d968046fc2f741eb35, type: 2}
-  m_PrefabInternal: {fileID: 304038351}
-  serializedVersion: 4
-  m_Component:
-  - 4: {fileID: 1745419691}
-  - 114: {fileID: 1745419690}
-  - 82: {fileID: 1745419692}
-  m_Layer: 0
-  m_Name: FW Controller Yellow
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!114 &1745419690
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 11400000, guid: 82ec77683ebd84d968046fc2f741eb35,
-    type: 2}
-  m_PrefabInternal: {fileID: 304038351}
-  m_GameObject: {fileID: 1745419689}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 1384774831, guid: e743331561ef77147ae48cda9bcb8209, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  fsm:
-    usedInTemplate: {fileID: 0}
-    name: FSM
-    startState: Idle
-    states:
-    - name: Idle
-      description: 
-      colorIndex: 0
-      position:
-        serializedVersion: 2
-        x: 50
-        y: 100
-        width: 117
-        height: 32
-      isBreakpoint: 0
-      isSequence: 0
-      hideUnused: 0
-      transitions:
-      - fsmEvent:
-          name: LAUNCHPURPLE
-          isSystemEvent: 0
-          isGlobal: 1
-        toState: Launched
-        linkStyle: 0
-        linkConstraint: 0
-        colorIndex: 0
-      actionData:
-        actionNames: []
-        customNames: []
-        actionEnabled: 
-        actionIsOpen: 
-        actionStartIndex: 
-        actionHashCodes: 
-        unityObjectParams: []
-        fsmGameObjectParams: []
-        fsmOwnerDefaultParams: []
-        animationCurveParams: []
-        functionCallParams: []
-        fsmTemplateControlParams: []
-        fsmEventTargetParams: []
-        fsmPropertyParams: []
-        layoutOptionParams: []
-        fsmStringParams: []
-        fsmObjectParams: []
-        fsmVarParams: []
-        byteData: 
-        arrayParamSizes: 
-        arrayParamTypes: []
-        customTypeSizes: 
-        customTypeNames: []
-        paramDataType: 
-        paramName: []
-        paramDataPos: 
-        paramByteDataSize: 
-    - name: Launched
-      description: 
-      colorIndex: 0
-      position:
-        serializedVersion: 2
-        x: 235
-        y: 160
-        width: 100
-        height: 32
-      isBreakpoint: 0
-      isSequence: 0
-      hideUnused: 0
-      transitions:
-      - fsmEvent:
-          name: FINISHED
-          isSystemEvent: 1
-          isGlobal: 0
-        toState: Explode
-        linkStyle: 0
-        linkConstraint: 0
-        colorIndex: 0
-      actionData:
-        actionNames:
-        - HutongGames.PlayMaker.Actions.AudioPlay
-        - HutongGames.PlayMaker.Actions.AudioPlay
-        - HutongGames.PlayMaker.Actions.CreateObject
-        customNames:
-        - 
-        - 
-        - 
-        actionEnabled: 010101
-        actionIsOpen: 010101
-        actionStartIndex: 000000000400000008000000
-        actionHashCodes: ef9258deef9258deac65eef1
-        unityObjectParams: []
-        fsmGameObjectParams:
-        - useVariable: 0
-          name: 
-          tooltip: 
-          showInInspector: 0
-          networkSync: 0
-          value: {fileID: 100004, guid: 75778c1a321a046a492940e046663d60, type: 2}
-        - useVariable: 0
-          name: 
-          tooltip: 
-          showInInspector: 0
-          networkSync: 0
-          value: {fileID: 1745419689}
-        - useVariable: 1
-          name: 
-          tooltip: 
-          showInInspector: 0
-          networkSync: 0
-          value: {fileID: 0}
-        fsmOwnerDefaultParams:
-        - ownerOption: 0
-          gameObject:
-            useVariable: 0
-            name: 
-            tooltip: 
-            showInInspector: 0
-            networkSync: 0
-            value: {fileID: 0}
-        - ownerOption: 0
-          gameObject:
-            useVariable: 0
-            name: 
-            tooltip: 
-            showInInspector: 0
-            networkSync: 0
-            value: {fileID: 0}
-        animationCurveParams: []
-        functionCallParams: []
-        fsmTemplateControlParams: []
-        fsmEventTargetParams: []
-        fsmPropertyParams: []
-        layoutOptionParams: []
-        fsmStringParams: []
-        fsmObjectParams:
-        - useVariable: 0
-          name: 
-          tooltip: 
-          showInInspector: 0
-          networkSync: 0
-          typeName: UnityEngine.AudioClip
-          value: {fileID: 8300000, guid: 6b821567c876f4bdcab8cb9b45f54d22, type: 3}
-        - useVariable: 0
-          name: 
-          tooltip: 
-          showInInspector: 0
-          networkSync: 0
-          typeName: UnityEngine.AudioClip
-          value: {fileID: 8300000, guid: cc2f925fc4f2b4b8485c81c1bfb224e8, type: 3}
-        fsmVarParams: []
-        byteData: 00002041000000204100000000000000000000000000010000000000000000000000000100000000000000
-        arrayParamSizes: 
-        arrayParamTypes: []
-        customTypeSizes: 
-        customTypeNames: []
-        paramDataType: 140000000f0000001800000017000000140000000f000000180000001700000013000000130000001c0000001c000000130000001100000010000000
-        paramName:
-        - gameObject
-        - volume
-        - oneShotClip
-        - finishedEvent
-        - gameObject
-        - volume
-        - oneShotClip
-        - finishedEvent
-        - gameObject
-        - spawnPoint
-        - position
-        - rotation
-        - storeObject
-        - networkInstantiate
-        - networkGroup
-        paramDataPos: 000000000000000000000000050000000100000005000000010000000a00000000000000010000000a00000017000000020000002400000026000000
-        paramByteDataSize: 000000000500000000000000000000000000000005000000000000000000000000000000000000000d0000000d000000000000000200000005000000
-    - name: Explode
-      description: 
-      colorIndex: 0
-      position:
-        serializedVersion: 2
-        x: 69
-        y: 232
-        width: 100
-        height: 32
-      isBreakpoint: 0
-      isSequence: 0
-      hideUnused: 0
-      transitions:
-      - fsmEvent:
-          name: FINISHED
-          isSystemEvent: 1
-          isGlobal: 0
-        toState: Idle
-        linkStyle: 0
-        linkConstraint: 0
-        colorIndex: 0
-      actionData:
-        actionNames:
-        - HutongGames.PlayMaker.Actions.CreateObject
-        customNames:
-        - 
-        actionEnabled: 01
-        actionIsOpen: 01
-        actionStartIndex: 00000000
-        actionHashCodes: ac65eef1
-        unityObjectParams: []
-        fsmGameObjectParams:
-        - useVariable: 0
-          name: 
-          tooltip: 
-          showInInspector: 0
-          networkSync: 0
-          value: {fileID: 100000, guid: ef52c75ce532b4044b1f580fc4def912, type: 2}
-        - useVariable: 0
-          name: 
-          tooltip: 
-          showInInspector: 0
-          networkSync: 0
-          value: {fileID: 0}
-        - useVariable: 1
-          name: 
-          tooltip: 
-          showInInspector: 0
-          networkSync: 0
-          value: {fileID: 0}
-        fsmOwnerDefaultParams: []
-        animationCurveParams: []
-        functionCallParams: []
-        fsmTemplateControlParams: []
-        fsmEventTargetParams: []
-        fsmPropertyParams: []
-        layoutOptionParams: []
-        fsmStringParams: []
-        fsmObjectParams: []
-        fsmVarParams: []
-        byteData: 000000000000000000000000010000000000000000000000000100000000000000
-        arrayParamSizes: 
-        arrayParamTypes: []
-        customTypeSizes: 
-        customTypeNames: []
-        paramDataType: 13000000130000001c0000001c000000130000001100000010000000
-        paramName:
-        - gameObject
-        - spawnPoint
-        - position
-        - rotation
-        - storeObject
-        - networkInstantiate
-        - networkGroup
-        paramDataPos: 0000000001000000000000000d000000020000001a0000001c000000
-        paramByteDataSize: 00000000000000000d0000000d000000000000000200000005000000
-    events:
-    - name: FINISHED
-      isSystemEvent: 1
-      isGlobal: 0
-    - name: LAUNCHPURPLE
-      isSystemEvent: 0
-      isGlobal: 1
-    globalTransitions: []
-    variables:
-      floatVariables: []
-      intVariables: []
-      boolVariables: []
-      stringVariables: []
-      vector2Variables: []
-      vector3Variables: []
-      colorVariables: []
-      rectVariables: []
-      quaternionVariables: []
-      gameObjectVariables: []
-      objectVariables: []
-      materialVariables: []
-      textureVariables: []
-    description: 
-    docUrl: 
-    showStateLabel: 0
-    maxLoopCount: 0
-    watermark: 
-    version: 0
-    ExposedEvents: []
-    RestartOnEnable: 1
-    EnableDebugFlow: 0
-    StepFrame: 0
-    activeStateName: 
-  fsmTemplate: {fileID: 0}
---- !u!4 &1745419691
-Transform:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 400000, guid: 82ec77683ebd84d968046fc2f741eb35, type: 2}
-  m_PrefabInternal: {fileID: 304038351}
-  m_GameObject: {fileID: 1745419689}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: -39.9239426, z: 120}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 0}
---- !u!82 &1745419692
-AudioSource:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 8200000, guid: 82ec77683ebd84d968046fc2f741eb35,
-    type: 2}
-  m_PrefabInternal: {fileID: 304038351}
-  m_GameObject: {fileID: 1745419689}
-  m_Enabled: 1
-  serializedVersion: 3
-  m_audioClip: {fileID: 8300000, guid: 6ebbb773c38314f3584c8588d1b8b91e, type: 3}
-  m_PlayOnAwake: 0
-  m_Volume: 1
-  m_Pitch: 1
-  Loop: 0
-  Mute: 0
-  Priority: 128
-  DopplerLevel: 1
-  MinDistance: 1
-  MaxDistance: 500
-  Pan2D: 0
-  rolloffMode: 0
-  BypassEffects: 0
-  BypassListenerEffects: 0
-  BypassReverbZones: 0
-  rolloffCustomCurve:
-    serializedVersion: 2
-    m_Curve:
-    - time: 0
-      value: 1
-      inSlope: 0
-      outSlope: 0
-      tangentMode: 0
-    - time: 1
-      value: 0
-      inSlope: 0
-      outSlope: 0
-      tangentMode: 0
-    m_PreInfinity: 2
-    m_PostInfinity: 2
-  panLevelCustomCurve:
-    serializedVersion: 2
-    m_Curve:
-    - time: 0
-      value: 1
-      inSlope: 0
-      outSlope: 0
-      tangentMode: 0
-    m_PreInfinity: 2
-    m_PostInfinity: 2
-  spreadCustomCurve:
-    serializedVersion: 2
-    m_Curve:
-    - time: 0
-      value: 0
-      inSlope: 0
-      outSlope: 0
-      tangentMode: 0
-    m_PreInfinity: 2
-    m_PostInfinity: 2
---- !u!1001 &1752197344
-Prefab:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    m_TransformParent: {fileID: 0}
-    m_Modifications:
-    - target: {fileID: 400000, guid: 82ec77683ebd84d968046fc2f741eb35, type: 2}
-      propertyPath: m_LocalPosition.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 400000, guid: 82ec77683ebd84d968046fc2f741eb35, type: 2}
-      propertyPath: m_LocalPosition.y
-      value: -40
-      objectReference: {fileID: 0}
-    - target: {fileID: 400000, guid: 82ec77683ebd84d968046fc2f741eb35, type: 2}
-      propertyPath: m_LocalPosition.z
-      value: 120
-      objectReference: {fileID: 0}
-    - target: {fileID: 400000, guid: 82ec77683ebd84d968046fc2f741eb35, type: 2}
-      propertyPath: m_LocalRotation.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 400000, guid: 82ec77683ebd84d968046fc2f741eb35, type: 2}
-      propertyPath: m_LocalRotation.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 400000, guid: 82ec77683ebd84d968046fc2f741eb35, type: 2}
-      propertyPath: m_LocalRotation.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 400000, guid: 82ec77683ebd84d968046fc2f741eb35, type: 2}
-      propertyPath: m_LocalRotation.w
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 100000, guid: 82ec77683ebd84d968046fc2f741eb35, type: 2}
-      propertyPath: m_Name
-      value: FW Controller Green
-      objectReference: {fileID: 0}
-    - target: {fileID: 11400000, guid: 82ec77683ebd84d968046fc2f741eb35, type: 2}
-      propertyPath: fsm.states.Array.data[1].actionData.fsmGameObjectParams.Array.data[0].value
-      value: 
-      objectReference: {fileID: 100004, guid: 1fa04169fe2e149fabfc7747edb685c2, type: 2}
-    - target: {fileID: 11400000, guid: 82ec77683ebd84d968046fc2f741eb35, type: 2}
-      propertyPath: fsm.states.Array.data[1].actionData.fsmGameObjectParams.Array.data[1].value
-      value: 
-      objectReference: {fileID: 940280659}
-    - target: {fileID: 11400000, guid: 82ec77683ebd84d968046fc2f741eb35, type: 2}
-      propertyPath: fsm.states.Array.data[2].actionData.fsmGameObjectParams.Array.data[1].value
-      value: 
-      objectReference: {fileID: 0}
-    - target: {fileID: 11400000, guid: 82ec77683ebd84d968046fc2f741eb35, type: 2}
-      propertyPath: fsm.showStateLabel
-      value: 0
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
-  m_ParentPrefab: {fileID: 100100000, guid: 82ec77683ebd84d968046fc2f741eb35, type: 2}
-  m_RootGameObject: {fileID: 940280659}
-  m_IsPrefabParent: 0
-  m_IsExploded: 1
 --- !u!1001 &1775906587
 Prefab:
   m_ObjectHideFlags: 0
@@ -19782,7 +18828,7 @@ MonoBehaviour:
           typeName: UnityEngine.AudioClip
           value: {fileID: 8300000, guid: cc2f925fc4f2b4b8485c81c1bfb224e8, type: 3}
         fsmVarParams: []
-        byteData: 0000803f000000803f00000040c000000040400000000000014657446972656374696f6e0000000000000000000000000100000000014657446972656374696f6e0000b04100000020c10000000000010100000000c03f0046494e495348454401
+        byteData: 0000803f000000803f00000040c000000040400000000000014657446972656374696f6e0000000000000000000000000100000000014657446972656374696f6e0000904100000020c10000000000010100000000c03f0046494e495348454401
         arrayParamSizes: 
         arrayParamTypes: []
         customTypeSizes: 
@@ -19847,7 +18893,7 @@ MonoBehaviour:
         - 
         - 
         - 
-        actionEnabled: 01010101
+        actionEnabled: 01000101
         actionIsOpen: 01010101
         actionStartIndex: 00000000070000000e00000015000000
         actionHashCodes: ac65eef1ac65eef1a290608e2c979284
@@ -20655,6 +19701,13 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_EditorClassIdentifier: 
   m_EditorClassIdentifier: 
+  m_EditorClassIdentifier: 
+  m_EditorClassIdentifier: 
+  m_EditorClassIdentifier: 
+  m_EditorClassIdentifier: 
+  m_EditorClassIdentifier: 
+  m_EditorClassIdentifier: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1971541116
 GameObject:
   m_ObjectHideFlags: 0
@@ -20741,7 +19794,7 @@ GameObject:
   - 82: {fileID: 2000015610}
   - 114: {fileID: 2000015609}
   m_Layer: 0
-  m_Name: Bl Firework
+  m_Name: Firework Blue
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -21112,7 +20165,7 @@ MonoBehaviour:
         - 
         - 
         - 
-        actionEnabled: 01010101
+        actionEnabled: 01000101
         actionIsOpen: 01010101
         actionStartIndex: 00000000070000000e00000015000000
         actionHashCodes: ac65eef1ac65eef1a290608e2c979284
@@ -21351,6 +20404,13 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_EditorClassIdentifier: 
   m_EditorClassIdentifier: 
+  m_EditorClassIdentifier: 
+  m_EditorClassIdentifier: 
+  m_EditorClassIdentifier: 
+  m_EditorClassIdentifier: 
+  m_EditorClassIdentifier: 
+  m_EditorClassIdentifier: 
+  m_EditorClassIdentifier: 
 --- !u!4 &2033902134
 Transform:
   m_ObjectHideFlags: 0
@@ -21364,387 +20424,6 @@ Transform:
   - {fileID: 1003219370}
   - {fileID: 845462249}
   m_Father: {fileID: 1186668128}
---- !u!1 &2036514135
-GameObject:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 100000, guid: 82ec77683ebd84d968046fc2f741eb35, type: 2}
-  m_PrefabInternal: {fileID: 803059157}
-  serializedVersion: 4
-  m_Component:
-  - 4: {fileID: 2036514137}
-  - 114: {fileID: 2036514136}
-  - 82: {fileID: 2036514138}
-  m_Layer: 0
-  m_Name: FW Controller Red
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!114 &2036514136
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 11400000, guid: 82ec77683ebd84d968046fc2f741eb35,
-    type: 2}
-  m_PrefabInternal: {fileID: 803059157}
-  m_GameObject: {fileID: 2036514135}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 1384774831, guid: e743331561ef77147ae48cda9bcb8209, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  fsm:
-    usedInTemplate: {fileID: 0}
-    name: FSM
-    startState: Idle
-    states:
-    - name: Idle
-      description: 
-      colorIndex: 0
-      position:
-        serializedVersion: 2
-        x: 50
-        y: 100
-        width: 117
-        height: 32
-      isBreakpoint: 0
-      isSequence: 0
-      hideUnused: 0
-      transitions:
-      - fsmEvent:
-          name: LAUNCHPURPLE
-          isSystemEvent: 0
-          isGlobal: 1
-        toState: Launched
-        linkStyle: 0
-        linkConstraint: 0
-        colorIndex: 0
-      actionData:
-        actionNames: []
-        customNames: []
-        actionEnabled: 
-        actionIsOpen: 
-        actionStartIndex: 
-        actionHashCodes: 
-        unityObjectParams: []
-        fsmGameObjectParams: []
-        fsmOwnerDefaultParams: []
-        animationCurveParams: []
-        functionCallParams: []
-        fsmTemplateControlParams: []
-        fsmEventTargetParams: []
-        fsmPropertyParams: []
-        layoutOptionParams: []
-        fsmStringParams: []
-        fsmObjectParams: []
-        fsmVarParams: []
-        byteData: 
-        arrayParamSizes: 
-        arrayParamTypes: []
-        customTypeSizes: 
-        customTypeNames: []
-        paramDataType: 
-        paramName: []
-        paramDataPos: 
-        paramByteDataSize: 
-    - name: Launched
-      description: 
-      colorIndex: 0
-      position:
-        serializedVersion: 2
-        x: 235
-        y: 160
-        width: 100
-        height: 32
-      isBreakpoint: 0
-      isSequence: 0
-      hideUnused: 0
-      transitions:
-      - fsmEvent:
-          name: FINISHED
-          isSystemEvent: 1
-          isGlobal: 0
-        toState: Explode
-        linkStyle: 0
-        linkConstraint: 0
-        colorIndex: 0
-      actionData:
-        actionNames:
-        - HutongGames.PlayMaker.Actions.AudioPlay
-        - HutongGames.PlayMaker.Actions.AudioPlay
-        - HutongGames.PlayMaker.Actions.CreateObject
-        customNames:
-        - 
-        - 
-        - 
-        actionEnabled: 010101
-        actionIsOpen: 010101
-        actionStartIndex: 000000000400000008000000
-        actionHashCodes: ef9258deef9258deac65eef1
-        unityObjectParams: []
-        fsmGameObjectParams:
-        - useVariable: 0
-          name: 
-          tooltip: 
-          showInInspector: 0
-          networkSync: 0
-          value: {fileID: 100004, guid: cc83722edc8c742faa3faf7cb83ce0b7, type: 2}
-        - useVariable: 0
-          name: 
-          tooltip: 
-          showInInspector: 0
-          networkSync: 0
-          value: {fileID: 2036514135}
-        - useVariable: 1
-          name: 
-          tooltip: 
-          showInInspector: 0
-          networkSync: 0
-          value: {fileID: 0}
-        fsmOwnerDefaultParams:
-        - ownerOption: 0
-          gameObject:
-            useVariable: 0
-            name: 
-            tooltip: 
-            showInInspector: 0
-            networkSync: 0
-            value: {fileID: 0}
-        - ownerOption: 0
-          gameObject:
-            useVariable: 0
-            name: 
-            tooltip: 
-            showInInspector: 0
-            networkSync: 0
-            value: {fileID: 0}
-        animationCurveParams: []
-        functionCallParams: []
-        fsmTemplateControlParams: []
-        fsmEventTargetParams: []
-        fsmPropertyParams: []
-        layoutOptionParams: []
-        fsmStringParams: []
-        fsmObjectParams:
-        - useVariable: 0
-          name: 
-          tooltip: 
-          showInInspector: 0
-          networkSync: 0
-          typeName: UnityEngine.AudioClip
-          value: {fileID: 8300000, guid: 6b821567c876f4bdcab8cb9b45f54d22, type: 3}
-        - useVariable: 0
-          name: 
-          tooltip: 
-          showInInspector: 0
-          networkSync: 0
-          typeName: UnityEngine.AudioClip
-          value: {fileID: 8300000, guid: cc2f925fc4f2b4b8485c81c1bfb224e8, type: 3}
-        fsmVarParams: []
-        byteData: 00002041000000204100000000000000000000000000010000000000000000000000000100000000000000
-        arrayParamSizes: 
-        arrayParamTypes: []
-        customTypeSizes: 
-        customTypeNames: []
-        paramDataType: 140000000f0000001800000017000000140000000f000000180000001700000013000000130000001c0000001c000000130000001100000010000000
-        paramName:
-        - gameObject
-        - volume
-        - oneShotClip
-        - finishedEvent
-        - gameObject
-        - volume
-        - oneShotClip
-        - finishedEvent
-        - gameObject
-        - spawnPoint
-        - position
-        - rotation
-        - storeObject
-        - networkInstantiate
-        - networkGroup
-        paramDataPos: 000000000000000000000000050000000100000005000000010000000a00000000000000010000000a00000017000000020000002400000026000000
-        paramByteDataSize: 000000000500000000000000000000000000000005000000000000000000000000000000000000000d0000000d000000000000000200000005000000
-    - name: Explode
-      description: 
-      colorIndex: 0
-      position:
-        serializedVersion: 2
-        x: 69
-        y: 232
-        width: 100
-        height: 32
-      isBreakpoint: 0
-      isSequence: 0
-      hideUnused: 0
-      transitions:
-      - fsmEvent:
-          name: FINISHED
-          isSystemEvent: 1
-          isGlobal: 0
-        toState: Idle
-        linkStyle: 0
-        linkConstraint: 0
-        colorIndex: 0
-      actionData:
-        actionNames:
-        - HutongGames.PlayMaker.Actions.CreateObject
-        customNames:
-        - 
-        actionEnabled: 01
-        actionIsOpen: 01
-        actionStartIndex: 00000000
-        actionHashCodes: ac65eef1
-        unityObjectParams: []
-        fsmGameObjectParams:
-        - useVariable: 0
-          name: 
-          tooltip: 
-          showInInspector: 0
-          networkSync: 0
-          value: {fileID: 100000, guid: ef52c75ce532b4044b1f580fc4def912, type: 2}
-        - useVariable: 0
-          name: 
-          tooltip: 
-          showInInspector: 0
-          networkSync: 0
-          value: {fileID: 0}
-        - useVariable: 1
-          name: 
-          tooltip: 
-          showInInspector: 0
-          networkSync: 0
-          value: {fileID: 0}
-        fsmOwnerDefaultParams: []
-        animationCurveParams: []
-        functionCallParams: []
-        fsmTemplateControlParams: []
-        fsmEventTargetParams: []
-        fsmPropertyParams: []
-        layoutOptionParams: []
-        fsmStringParams: []
-        fsmObjectParams: []
-        fsmVarParams: []
-        byteData: 000000000000000000000000010000000000000000000000000100000000000000
-        arrayParamSizes: 
-        arrayParamTypes: []
-        customTypeSizes: 
-        customTypeNames: []
-        paramDataType: 13000000130000001c0000001c000000130000001100000010000000
-        paramName:
-        - gameObject
-        - spawnPoint
-        - position
-        - rotation
-        - storeObject
-        - networkInstantiate
-        - networkGroup
-        paramDataPos: 0000000001000000000000000d000000020000001a0000001c000000
-        paramByteDataSize: 00000000000000000d0000000d000000000000000200000005000000
-    events:
-    - name: FINISHED
-      isSystemEvent: 1
-      isGlobal: 0
-    - name: LAUNCHPURPLE
-      isSystemEvent: 0
-      isGlobal: 1
-    globalTransitions: []
-    variables:
-      floatVariables: []
-      intVariables: []
-      boolVariables: []
-      stringVariables: []
-      vector2Variables: []
-      vector3Variables: []
-      colorVariables: []
-      rectVariables: []
-      quaternionVariables: []
-      gameObjectVariables: []
-      objectVariables: []
-      materialVariables: []
-      textureVariables: []
-    description: 
-    docUrl: 
-    showStateLabel: 0
-    maxLoopCount: 0
-    watermark: 
-    version: 0
-    ExposedEvents: []
-    RestartOnEnable: 1
-    EnableDebugFlow: 0
-    StepFrame: 0
-    activeStateName: 
-  fsmTemplate: {fileID: 0}
---- !u!4 &2036514137
-Transform:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 400000, guid: 82ec77683ebd84d968046fc2f741eb35, type: 2}
-  m_PrefabInternal: {fileID: 803059157}
-  m_GameObject: {fileID: 2036514135}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: -40, z: 60}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 0}
---- !u!82 &2036514138
-AudioSource:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 8200000, guid: 82ec77683ebd84d968046fc2f741eb35,
-    type: 2}
-  m_PrefabInternal: {fileID: 803059157}
-  m_GameObject: {fileID: 2036514135}
-  m_Enabled: 1
-  serializedVersion: 3
-  m_audioClip: {fileID: 8300000, guid: 6ebbb773c38314f3584c8588d1b8b91e, type: 3}
-  m_PlayOnAwake: 0
-  m_Volume: 1
-  m_Pitch: 1
-  Loop: 0
-  Mute: 0
-  Priority: 128
-  DopplerLevel: 1
-  MinDistance: 1
-  MaxDistance: 500
-  Pan2D: 0
-  rolloffMode: 0
-  BypassEffects: 0
-  BypassListenerEffects: 0
-  BypassReverbZones: 0
-  rolloffCustomCurve:
-    serializedVersion: 2
-    m_Curve:
-    - time: 0
-      value: 1
-      inSlope: 0
-      outSlope: 0
-      tangentMode: 0
-    - time: 1
-      value: 0
-      inSlope: 0
-      outSlope: 0
-      tangentMode: 0
-    m_PreInfinity: 2
-    m_PostInfinity: 2
-  panLevelCustomCurve:
-    serializedVersion: 2
-    m_Curve:
-    - time: 0
-      value: 1
-      inSlope: 0
-      outSlope: 0
-      tangentMode: 0
-    m_PreInfinity: 2
-    m_PostInfinity: 2
-  spreadCustomCurve:
-    serializedVersion: 2
-    m_Curve:
-    - time: 0
-      value: 0
-      inSlope: 0
-      outSlope: 0
-      tangentMode: 0
-    m_PreInfinity: 2
-    m_PostInfinity: 2
 --- !u!1 &2046368835
 GameObject:
   m_ObjectHideFlags: 0
@@ -21818,7 +20497,7 @@ GameObject:
   - 114: {fileID: 2058082613}
   - 114: {fileID: 2058082621}
   m_Layer: 0
-  m_Name: Purp Firework
+  m_Name: Firework Purple
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -22136,7 +20815,7 @@ MonoBehaviour:
           typeName: UnityEngine.AudioClip
           value: {fileID: 8300000, guid: cc2f925fc4f2b4b8485c81c1bfb224e8, type: 3}
         fsmVarParams: []
-        byteData: 0000803f000000803f00000040c000000040400000000000014657446972656374696f6e0000000000000000000000000100000000014657446972656374696f6e0000b04100000020c10000000000010100000000c03f0046494e495348454401
+        byteData: 0000803f000000803f00000040c000000040400000000000014657446972656374696f6e0000000000000000000000000100000000014657446972656374696f6e0000904100000020c10000000000010100000000c03f0046494e495348454401
         arrayParamSizes: 
         arrayParamTypes: []
         customTypeSizes: 
@@ -22201,7 +20880,7 @@ MonoBehaviour:
         - 
         - 
         - 
-        actionEnabled: 01010101
+        actionEnabled: 01000101
         actionIsOpen: 01010101
         actionStartIndex: 00000000070000000e00000015000000
         actionHashCodes: ac65eef1ac65eef1a290608e2c979284

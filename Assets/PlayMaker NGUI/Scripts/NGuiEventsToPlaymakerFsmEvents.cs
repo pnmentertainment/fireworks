@@ -12,7 +12,7 @@ using UnityEngine;
 /// </summary>
 public class NGuiEventsToPlaymakerFsmEvents : MonoBehaviour
 {
-	public bool debug = true;
+	public bool debug = false;
 	
 	public static UICamera.MouseOrTouch currentTouch;
 	
@@ -124,7 +124,7 @@ public class NGuiEventsToPlaymakerFsmEvents : MonoBehaviour
 		
 		_usage[(int)NGuiPlayMakerDelegates.OnClickEvent] ++;
 		
-		if (debug)	Debug.Log("NGuiEventsToPlaymakerFsmEvents OnClick() "+_usage[(int)NGuiPlayMakerDelegates.OnClickEvent]+" to "+targetFSM.gameObject.name+"/"+targetFSM.FsmName);
+	//	if (debug)	Debug.Log("NGuiEventsToPlaymakerFsmEvents OnClick() "+_usage[(int)NGuiPlayMakerDelegates.OnClickEvent]+" to "+targetFSM.gameObject.name+"/"+targetFSM.FsmName);
 
 		currentTouch = UICamera.currentTouch;
 		
@@ -138,7 +138,7 @@ public class NGuiEventsToPlaymakerFsmEvents : MonoBehaviour
 		
 		_usage[(int)NGuiPlayMakerDelegates.OnHoverEvent] ++;
 		
-		if (debug) Debug.Log("NGuiEventsToPlaymakerFsmEvents OnHover("+isOver+") "+_usage[(int)NGuiPlayMakerDelegates.OnClickEvent]+" to "+targetFSM.gameObject.name+"/"+targetFSM.FsmName,this);
+	//	if (debug) Debug.Log("NGuiEventsToPlaymakerFsmEvents OnHover("+isOver+") "+_usage[(int)NGuiPlayMakerDelegates.OnClickEvent]+" to "+targetFSM.gameObject.name+"/"+targetFSM.FsmName,this);
 		Fsm.EventData.BoolData = isOver;
 		
 		currentTouch = UICamera.currentTouch;
@@ -159,7 +159,7 @@ public class NGuiEventsToPlaymakerFsmEvents : MonoBehaviour
 		
 		_usage[(int)NGuiPlayMakerDelegates.OnPressEvent] ++;
 		
-		if (debug) Debug.Log("NGuiEventsToPlaymakerFsmEvents OnPress("+pressed+") "+_usage[(int)NGuiPlayMakerDelegates.OnPressEvent]+" to "+targetFSM.gameObject.name+"/"+targetFSM.FsmName);
+	//	if (debug) Debug.Log("NGuiEventsToPlaymakerFsmEvents OnPress("+pressed+") "+_usage[(int)NGuiPlayMakerDelegates.OnPressEvent]+" to "+targetFSM.gameObject.name+"/"+targetFSM.FsmName);
 		
 		Fsm.EventData.BoolData = pressed;
 		
@@ -180,7 +180,7 @@ public class NGuiEventsToPlaymakerFsmEvents : MonoBehaviour
 	{
 		if (!enabled || targetFSM == null) return;
 		
-		if (debug) Debug.Log("NGuiEventsToPlaymakerFsmEvents OnSelect("+selected+") to "+targetFSM.gameObject.name+"/"+targetFSM.FsmName);
+	//	if (debug) Debug.Log("NGuiEventsToPlaymakerFsmEvents OnSelect("+selected+") to "+targetFSM.gameObject.name+"/"+targetFSM.FsmName);
 		
 		Fsm.EventData.BoolData = selected;
 		
@@ -193,7 +193,7 @@ public class NGuiEventsToPlaymakerFsmEvents : MonoBehaviour
 	{
 		if (!enabled || targetFSM == null) return;
 		
-		if (debug) Debug.Log("NGuiEventsToPlaymakerFsmEvents OnDrag("+delta+") to "+targetFSM.gameObject.name+"/"+targetFSM.FsmName);
+//		if (debug) Debug.Log("NGuiEventsToPlaymakerFsmEvents OnDrag("+delta+") to "+targetFSM.gameObject.name+"/"+targetFSM.FsmName);
 		
 		Fsm.EventData.Vector3Data = new Vector3(delta.x, delta.y);
 		
@@ -219,7 +219,7 @@ public class NGuiEventsToPlaymakerFsmEvents : MonoBehaviour
 	{
 		if (!enabled || targetFSM == null) return;
 		
-		if (debug) Debug.Log("NGuiEventsToPlaymakerFsmEvents OnTooltip("+show+") to "+targetFSM.gameObject.name+"/"+targetFSM.FsmName);
+	//	if (debug) Debug.Log("NGuiEventsToPlaymakerFsmEvents OnTooltip("+show+") to "+targetFSM.gameObject.name+"/"+targetFSM.FsmName);
 		
 		Fsm.EventData.BoolData = show;
 		
