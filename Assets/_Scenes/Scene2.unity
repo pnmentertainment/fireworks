@@ -996,6 +996,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_EditorClassIdentifier: 
   m_EditorClassIdentifier: 
+  m_EditorClassIdentifier: 
 --- !u!1 &81856705
 GameObject:
   m_ObjectHideFlags: 0
@@ -8617,6 +8618,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_EditorClassIdentifier: 
   m_EditorClassIdentifier: 
+  m_EditorClassIdentifier: 
 --- !u!4 &520318822
 Transform:
   m_ObjectHideFlags: 0
@@ -11795,7 +11797,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &835156962
 Transform:
   m_ObjectHideFlags: 0
@@ -11851,7 +11853,7 @@ MonoBehaviour:
     e00: 360
     e01: 0
     e02: 0
-    e03: -1.29955661
+    e03: 1.29974616
     e10: 0
     e11: 360
     e12: 0
@@ -11909,6 +11911,7 @@ MonoBehaviour:
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 4c30c5ba201d3254a8a5d9027c487023, type: 3}
   m_Name: 
+  m_EditorClassIdentifier: 
   m_EditorClassIdentifier: 
   m_EditorClassIdentifier: 
   m_EditorClassIdentifier: 
@@ -13513,7 +13516,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &977037742
 Transform:
   m_ObjectHideFlags: 0
@@ -13569,7 +13572,7 @@ MonoBehaviour:
     e00: 360
     e01: 0
     e02: 0
-    e03: -1.29955661
+    e03: 1.29974616
     e10: 0
     e11: 360
     e12: 0
@@ -16597,6 +16600,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_EditorClassIdentifier: 
   m_EditorClassIdentifier: 
+  m_EditorClassIdentifier: 
 --- !u!4 &1193753168
 Transform:
   m_ObjectHideFlags: 0
@@ -16772,6 +16776,7 @@ MonoBehaviour:
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 4c30c5ba201d3254a8a5d9027c487023, type: 3}
   m_Name: 
+  m_EditorClassIdentifier: 
   m_EditorClassIdentifier: 
   m_EditorClassIdentifier: 
   m_EditorClassIdentifier: 
@@ -17972,7 +17977,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 100026, guid: 9ef0260e7a34846bca0e189ff5872925, type: 2}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 9ef0260e7a34846bca0e189ff5872925, type: 2}
@@ -19658,7 +19663,7 @@ Prefab:
       objectReference: {fileID: 2098355512}
     - target: {fileID: 100010, guid: d6dfb496cf12f4937952437ec035512f, type: 2}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: d6dfb496cf12f4937952437ec035512f, type: 2}
@@ -23368,6 +23373,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_EditorClassIdentifier: 
   m_EditorClassIdentifier: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1590233520
 GameObject:
   m_ObjectHideFlags: 0
@@ -25019,7 +25025,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 100036, guid: c5474d02f1a474613ac9cc5a0b67f4f0, type: 2}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: c5474d02f1a474613ac9cc5a0b67f4f0, type: 2}
@@ -26671,7 +26677,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 100000, guid: f4e3cea89f6a94488bc57c5513e439ee, type: 2}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: f4e3cea89f6a94488bc57c5513e439ee, type: 2}
@@ -26904,6 +26910,7 @@ MonoBehaviour:
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 4c30c5ba201d3254a8a5d9027c487023, type: 3}
   m_Name: 
+  m_EditorClassIdentifier: 
   m_EditorClassIdentifier: 
   m_EditorClassIdentifier: 
   m_EditorClassIdentifier: 
@@ -27953,6 +27960,7 @@ MonoBehaviour:
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 4c30c5ba201d3254a8a5d9027c487023, type: 3}
   m_Name: 
+  m_EditorClassIdentifier: 
   m_EditorClassIdentifier: 
   m_EditorClassIdentifier: 
   m_EditorClassIdentifier: 
@@ -29204,7 +29212,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &2098355510
 Transform:
   m_ObjectHideFlags: 0
@@ -29245,7 +29253,7 @@ MonoBehaviour:
     e00: 360
     e01: 0
     e02: 0
-    e03: -1.29966652
+    e03: 1.29963624
     e10: 0
     e11: 360
     e12: 0
@@ -29432,7 +29440,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &2135113774
 Transform:
   m_ObjectHideFlags: 0
