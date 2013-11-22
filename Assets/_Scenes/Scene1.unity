@@ -627,12 +627,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_EditorClassIdentifier: 
   m_EditorClassIdentifier: 
-  m_EditorClassIdentifier: 
-  m_EditorClassIdentifier: 
-  m_EditorClassIdentifier: 
-  m_EditorClassIdentifier: 
-  m_EditorClassIdentifier: 
-  m_EditorClassIdentifier: 
 --- !u!1 &81856705
 GameObject:
   m_ObjectHideFlags: 0
@@ -3921,7 +3915,7 @@ MonoBehaviour:
     e00: 553.846313
     e01: 0
     e02: 0
-    e03: 1.99944103
+    e03: 9.16994765e-08
     e10: 0
     e11: 640.000122
     e12: 0
@@ -4363,13 +4357,13 @@ GameObject:
   m_Component:
   - 4: {fileID: 386717448}
   - 33: {fileID: 386717447}
-  - 135: {fileID: 386717446}
   - 23: {fileID: 386717445}
   - 114: {fileID: 386717444}
   - 54: {fileID: 386717443}
   - 75: {fileID: 386717442}
   - 82: {fileID: 386717441}
   - 114: {fileID: 386717440}
+  - 65: {fileID: 386717446}
   m_Layer: 0
   m_Name: Firework Red
   m_TagString: Untagged
@@ -4916,19 +4910,18 @@ Renderer:
   m_UseLightProbes: 0
   m_LightProbeAnchor: {fileID: 0}
   m_ScaleInLightmap: 1
---- !u!135 &386717446
-SphereCollider:
+--- !u!65 &386717446
+BoxCollider:
   m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 13500000, guid: caacc3c1334df46ffb04586c22cdd7f4,
-    type: 2}
-  m_PrefabInternal: {fileID: 930721436}
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 386717439}
   m_Material: {fileID: 0}
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Radius: .5
-  m_Center: {x: 0, y: 0, z: 0}
+  m_Size: {x: 1.00000036, y: 1.00000012, z: 1.00000024}
+  m_Center: {x: 5.9604659e-08, y: -1.99840144e-15, z: -8.94069672e-08}
 --- !u!33 &386717447
 MeshFilter:
   m_ObjectHideFlags: 0
@@ -6120,12 +6113,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_EditorClassIdentifier: 
   m_EditorClassIdentifier: 
-  m_EditorClassIdentifier: 
-  m_EditorClassIdentifier: 
-  m_EditorClassIdentifier: 
-  m_EditorClassIdentifier: 
-  m_EditorClassIdentifier: 
-  m_EditorClassIdentifier: 
 --- !u!4 &520318822
 Transform:
   m_ObjectHideFlags: 0
@@ -6448,7 +6435,8 @@ Prefab:
       propertyPath: fsm.states.Array.data[1].actionData.actionIsOpen.Array.data[0]
       value: 0
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 13500000, guid: caacc3c1334df46ffb04586c22cdd7f4, type: 2}
   m_ParentPrefab: {fileID: 100100000, guid: caacc3c1334df46ffb04586c22cdd7f4, type: 2}
   m_RootGameObject: {fileID: 1828693436}
   m_IsPrefabParent: 0
@@ -7580,7 +7568,12 @@ Prefab:
       propertyPath: fsm.states.Array.data[2].actionData.fsmGameObjectParams.Array.data[0].value
       value: 
       objectReference: {fileID: 100002, guid: 3624a1d5fbd9b4aa09e618ce3070c9e0, type: 2}
-    m_RemovedComponents: []
+    - target: {fileID: 3300000, guid: caacc3c1334df46ffb04586c22cdd7f4, type: 2}
+      propertyPath: m_Mesh
+      value: 
+      objectReference: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+    m_RemovedComponents:
+    - {fileID: 13500000, guid: caacc3c1334df46ffb04586c22cdd7f4, type: 2}
   m_ParentPrefab: {fileID: 100100000, guid: caacc3c1334df46ffb04586c22cdd7f4, type: 2}
   m_RootGameObject: {fileID: 1480551301}
   m_IsPrefabParent: 0
@@ -7598,7 +7591,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 400004, guid: d2ffc92ae09944ca5b3319323c18a20b, type: 2}
       propertyPath: m_LocalPosition.y
-      value: -12.7258034
+      value: -13.1918488
       objectReference: {fileID: 0}
     - target: {fileID: 400004, guid: d2ffc92ae09944ca5b3319323c18a20b, type: 2}
       propertyPath: m_LocalPosition.z
@@ -7860,7 +7853,7 @@ Transform:
   m_PrefabInternal: {fileID: 662679114}
   m_GameObject: {fileID: 774181203}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: -12.7258034, z: 21.4331112}
+  m_LocalPosition: {x: 0, y: -13.1918488, z: 21.4331112}
   m_LocalScale: {x: 2.67499995, y: 1, z: .475001752}
   m_Children:
   - {fileID: 1032330312}
@@ -7878,13 +7871,13 @@ GameObject:
   m_Component:
   - 4: {fileID: 810482496}
   - 33: {fileID: 810482504}
-  - 135: {fileID: 810482503}
   - 23: {fileID: 810482502}
   - 114: {fileID: 810482501}
   - 54: {fileID: 810482500}
   - 75: {fileID: 810482499}
   - 82: {fileID: 810482498}
   - 114: {fileID: 810482497}
+  - 65: {fileID: 810482503}
   m_Layer: 0
   m_Name: Firework Yellow
   m_TagString: Untagged
@@ -8443,19 +8436,18 @@ Renderer:
   m_UseLightProbes: 0
   m_LightProbeAnchor: {fileID: 0}
   m_ScaleInLightmap: 1
---- !u!135 &810482503
-SphereCollider:
+--- !u!65 &810482503
+BoxCollider:
   m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 13500000, guid: caacc3c1334df46ffb04586c22cdd7f4,
-    type: 2}
-  m_PrefabInternal: {fileID: 1131856473}
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 810482495}
   m_Material: {fileID: 0}
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Radius: .5
-  m_Center: {x: 0, y: 0, z: 0}
+  m_Size: {x: 1.00000024, y: 1.00000012, z: 1}
+  m_Center: {x: -3.05175781e-05, y: 0, z: 0}
 --- !u!33 &810482504
 MeshFilter:
   m_ObjectHideFlags: 0
@@ -8463,7 +8455,7 @@ MeshFilter:
     type: 2}
   m_PrefabInternal: {fileID: 1131856473}
   m_GameObject: {fileID: 810482495}
-  m_Mesh: {fileID: 10207, guid: 0000000000000000e000000000000000, type: 0}
+  m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
 --- !u!1 &818929130
 GameObject:
   m_ObjectHideFlags: 0
@@ -8657,12 +8649,6 @@ MonoBehaviour:
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 4c30c5ba201d3254a8a5d9027c487023, type: 3}
   m_Name: 
-  m_EditorClassIdentifier: 
-  m_EditorClassIdentifier: 
-  m_EditorClassIdentifier: 
-  m_EditorClassIdentifier: 
-  m_EditorClassIdentifier: 
-  m_EditorClassIdentifier: 
   m_EditorClassIdentifier: 
   m_EditorClassIdentifier: 
   m_EditorClassIdentifier: 
@@ -9134,7 +9120,12 @@ Prefab:
       propertyPath: m_LocalScale.y
       value: .0299999993
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    - target: {fileID: 13500000, guid: caacc3c1334df46ffb04586c22cdd7f4, type: 2}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents:
+    - {fileID: 13500000, guid: caacc3c1334df46ffb04586c22cdd7f4, type: 2}
   m_ParentPrefab: {fileID: 100100000, guid: caacc3c1334df46ffb04586c22cdd7f4, type: 2}
   m_RootGameObject: {fileID: 386717439}
   m_IsPrefabParent: 0
@@ -9422,7 +9413,8 @@ Prefab:
       propertyPath: fsm.states.Array.data[1].actionData.actionIsOpen.Array.data[0]
       value: 1
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 13500000, guid: caacc3c1334df46ffb04586c22cdd7f4, type: 2}
   m_ParentPrefab: {fileID: 100100000, guid: caacc3c1334df46ffb04586c22cdd7f4, type: 2}
   m_RootGameObject: {fileID: 2058082611}
   m_IsPrefabParent: 0
@@ -10424,7 +10416,12 @@ Prefab:
       propertyPath: fsm.states.Array.data[2].actionData.fsmGameObjectParams.Array.data[0].value
       value: 
       objectReference: {fileID: 100002, guid: 4cdf6b1c8fb4b4e99b95b5627f36d0c4, type: 2}
-    m_RemovedComponents: []
+    - target: {fileID: 3300000, guid: caacc3c1334df46ffb04586c22cdd7f4, type: 2}
+      propertyPath: m_Mesh
+      value: 
+      objectReference: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+    m_RemovedComponents:
+    - {fileID: 13500000, guid: caacc3c1334df46ffb04586c22cdd7f4, type: 2}
   m_ParentPrefab: {fileID: 100100000, guid: caacc3c1334df46ffb04586c22cdd7f4, type: 2}
   m_RootGameObject: {fileID: 810482495}
   m_IsPrefabParent: 0
@@ -10572,7 +10569,8 @@ Prefab:
       propertyPath: m_Name
       value: Firework Pink
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 13500000, guid: 81a94880974a144e482727dda7398c99, type: 2}
   m_ParentPrefab: {fileID: 100100000, guid: 81a94880974a144e482727dda7398c99, type: 2}
   m_RootGameObject: {fileID: 1526376573}
   m_IsPrefabParent: 0
@@ -10936,13 +10934,13 @@ GameObject:
   m_Component:
   - 4: {fileID: 1186668128}
   - 33: {fileID: 1186668136}
-  - 135: {fileID: 1186668135}
   - 23: {fileID: 1186668134}
   - 114: {fileID: 1186668133}
   - 54: {fileID: 1186668132}
   - 75: {fileID: 1186668131}
   - 82: {fileID: 1186668130}
   - 114: {fileID: 1186668129}
+  - 65: {fileID: 1186668135}
   m_Layer: 0
   m_Name: Firework Brown
   m_TagString: Untagged
@@ -11501,19 +11499,18 @@ Renderer:
   m_UseLightProbes: 0
   m_LightProbeAnchor: {fileID: 0}
   m_ScaleInLightmap: 1
---- !u!135 &1186668135
-SphereCollider:
+--- !u!65 &1186668135
+BoxCollider:
   m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 13500000, guid: caacc3c1334df46ffb04586c22cdd7f4,
-    type: 2}
-  m_PrefabInternal: {fileID: 1431580663}
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1186668127}
   m_Material: {fileID: 0}
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Radius: .5
-  m_Center: {x: 0, y: 0, z: 0}
+  m_Size: {x: .5, y: .5, z: .5}
+  m_Center: {x: -3.05175781e-05, y: 0, z: 0}
 --- !u!33 &1186668136
 MeshFilter:
   m_ObjectHideFlags: 0
@@ -11521,7 +11518,7 @@ MeshFilter:
     type: 2}
   m_PrefabInternal: {fileID: 1431580663}
   m_GameObject: {fileID: 1186668127}
-  m_Mesh: {fileID: 10207, guid: 0000000000000000e000000000000000, type: 0}
+  m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
 --- !u!1 &1193753166
 GameObject:
   m_ObjectHideFlags: 0
@@ -11549,12 +11546,6 @@ MonoBehaviour:
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 4c30c5ba201d3254a8a5d9027c487023, type: 3}
   m_Name: 
-  m_EditorClassIdentifier: 
-  m_EditorClassIdentifier: 
-  m_EditorClassIdentifier: 
-  m_EditorClassIdentifier: 
-  m_EditorClassIdentifier: 
-  m_EditorClassIdentifier: 
   m_EditorClassIdentifier: 
   m_EditorClassIdentifier: 
   m_EditorClassIdentifier: 
@@ -11736,12 +11727,6 @@ MonoBehaviour:
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 4c30c5ba201d3254a8a5d9027c487023, type: 3}
   m_Name: 
-  m_EditorClassIdentifier: 
-  m_EditorClassIdentifier: 
-  m_EditorClassIdentifier: 
-  m_EditorClassIdentifier: 
-  m_EditorClassIdentifier: 
-  m_EditorClassIdentifier: 
   m_EditorClassIdentifier: 
   m_EditorClassIdentifier: 
   m_EditorClassIdentifier: 
@@ -12094,7 +12079,12 @@ Prefab:
       propertyPath: m_Name
       value: Firework Blue
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    - target: {fileID: 3300000, guid: 5857c21d5faf9486ebdb32aaded61bd9, type: 2}
+      propertyPath: m_Mesh
+      value: 
+      objectReference: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+    m_RemovedComponents:
+    - {fileID: 13500000, guid: 5857c21d5faf9486ebdb32aaded61bd9, type: 2}
   m_ParentPrefab: {fileID: 100100000, guid: 5857c21d5faf9486ebdb32aaded61bd9, type: 2}
   m_RootGameObject: {fileID: 2000015608}
   m_IsPrefabParent: 0
@@ -12903,7 +12893,7 @@ MonoBehaviour:
     e00: 553.846313
     e01: 0
     e02: 0
-    e03: 1.99944091
+    e03: 0
     e10: 0
     e11: 640.000122
     e12: 0
@@ -13019,7 +13009,12 @@ Prefab:
       propertyPath: fsm.states.Array.data[2].actionData.fsmGameObjectParams.Array.data[0].value
       value: 
       objectReference: {fileID: 100000, guid: 0904073b103d24685937bad523d43116, type: 2}
-    m_RemovedComponents: []
+    - target: {fileID: 3300000, guid: caacc3c1334df46ffb04586c22cdd7f4, type: 2}
+      propertyPath: m_Mesh
+      value: 
+      objectReference: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+    m_RemovedComponents:
+    - {fileID: 13500000, guid: caacc3c1334df46ffb04586c22cdd7f4, type: 2}
   m_ParentPrefab: {fileID: 100100000, guid: caacc3c1334df46ffb04586c22cdd7f4, type: 2}
   m_RootGameObject: {fileID: 1186668127}
   m_IsPrefabParent: 0
@@ -13186,13 +13181,13 @@ GameObject:
   m_Component:
   - 4: {fileID: 1480551302}
   - 33: {fileID: 1480551310}
-  - 135: {fileID: 1480551309}
   - 23: {fileID: 1480551308}
   - 114: {fileID: 1480551307}
   - 54: {fileID: 1480551306}
   - 75: {fileID: 1480551305}
   - 82: {fileID: 1480551304}
   - 114: {fileID: 1480551303}
+  - 65: {fileID: 1480551309}
   m_Layer: 0
   m_Name: Firework Orange
   m_TagString: Untagged
@@ -13751,19 +13746,18 @@ Renderer:
   m_UseLightProbes: 0
   m_LightProbeAnchor: {fileID: 0}
   m_ScaleInLightmap: 1
---- !u!135 &1480551309
-SphereCollider:
+--- !u!65 &1480551309
+BoxCollider:
   m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 13500000, guid: caacc3c1334df46ffb04586c22cdd7f4,
-    type: 2}
-  m_PrefabInternal: {fileID: 657436806}
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1480551301}
   m_Material: {fileID: 0}
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Radius: .5
-  m_Center: {x: 0, y: 0, z: 0}
+  m_Size: {x: 1.00000036, y: 1.00000012, z: 1.00000024}
+  m_Center: {x: 3.05771828e-05, y: -1.99840144e-15, z: -6.11245632e-05}
 --- !u!33 &1480551310
 MeshFilter:
   m_ObjectHideFlags: 0
@@ -13771,7 +13765,7 @@ MeshFilter:
     type: 2}
   m_PrefabInternal: {fileID: 657436806}
   m_GameObject: {fileID: 1480551301}
-  m_Mesh: {fileID: 10207, guid: 0000000000000000e000000000000000, type: 0}
+  m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
 --- !u!1001 &1488921837
 Prefab:
   m_ObjectHideFlags: 0
@@ -13843,7 +13837,7 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1490303568}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -1.29963624, y: -287.220215, z: 0}
+  m_LocalPosition: {x: 0, y: -287.220215, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 311685495}
@@ -13877,13 +13871,13 @@ GameObject:
   m_Component:
   - 4: {fileID: 1526376574}
   - 33: {fileID: 1526376582}
-  - 135: {fileID: 1526376581}
   - 23: {fileID: 1526376580}
   - 114: {fileID: 1526376579}
   - 54: {fileID: 1526376578}
   - 75: {fileID: 1526376577}
   - 82: {fileID: 1526376576}
   - 114: {fileID: 1526376575}
+  - 65: {fileID: 1526376581}
   m_Layer: 0
   m_Name: Firework Pink
   m_TagString: Untagged
@@ -14442,19 +14436,18 @@ Renderer:
   m_UseLightProbes: 0
   m_LightProbeAnchor: {fileID: 0}
   m_ScaleInLightmap: 1
---- !u!135 &1526376581
-SphereCollider:
+--- !u!65 &1526376581
+BoxCollider:
   m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 13500000, guid: 81a94880974a144e482727dda7398c99,
-    type: 2}
-  m_PrefabInternal: {fileID: 1166048884}
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1526376573}
   m_Material: {fileID: 0}
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Radius: .5
-  m_Center: {x: 0, y: 0, z: 0}
+  m_Size: {x: 1.00000036, y: 1.00000012, z: 1.00000024}
+  m_Center: {x: -3.04579735e-05, y: -3.05175781e-05, z: -8.94069672e-08}
 --- !u!33 &1526376582
 MeshFilter:
   m_ObjectHideFlags: 0
@@ -17306,12 +17299,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_EditorClassIdentifier: 
   m_EditorClassIdentifier: 
-  m_EditorClassIdentifier: 
-  m_EditorClassIdentifier: 
-  m_EditorClassIdentifier: 
-  m_EditorClassIdentifier: 
-  m_EditorClassIdentifier: 
-  m_EditorClassIdentifier: 
 --- !u!1 &1590233520
 GameObject:
   m_ObjectHideFlags: 0
@@ -18514,13 +18501,13 @@ GameObject:
   m_Component:
   - 4: {fileID: 1828693445}
   - 33: {fileID: 1828693444}
-  - 135: {fileID: 1828693443}
   - 23: {fileID: 1828693442}
   - 114: {fileID: 1828693441}
   - 54: {fileID: 1828693440}
   - 75: {fileID: 1828693439}
   - 82: {fileID: 1828693438}
   - 114: {fileID: 1828693437}
+  - 65: {fileID: 1828693443}
   m_Layer: 0
   m_Name: Firework Green
   m_TagString: Untagged
@@ -19067,19 +19054,18 @@ Renderer:
   m_UseLightProbes: 0
   m_LightProbeAnchor: {fileID: 0}
   m_ScaleInLightmap: 1
---- !u!135 &1828693443
-SphereCollider:
+--- !u!65 &1828693443
+BoxCollider:
   m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 13500000, guid: caacc3c1334df46ffb04586c22cdd7f4,
-    type: 2}
-  m_PrefabInternal: {fileID: 543765342}
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1828693436}
   m_Material: {fileID: 0}
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Radius: .5
-  m_Center: {x: 0, y: 0, z: 0}
+  m_Size: {x: .5, y: .5, z: .5}
+  m_Center: {x: -3.04579735e-05, y: -1.99840144e-15, z: -8.94069672e-08}
 --- !u!33 &1828693444
 MeshFilter:
   m_ObjectHideFlags: 0
@@ -19702,12 +19688,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_EditorClassIdentifier: 
   m_EditorClassIdentifier: 
-  m_EditorClassIdentifier: 
-  m_EditorClassIdentifier: 
-  m_EditorClassIdentifier: 
-  m_EditorClassIdentifier: 
-  m_EditorClassIdentifier: 
-  m_EditorClassIdentifier: 
 --- !u!1 &1971541116
 GameObject:
   m_ObjectHideFlags: 0
@@ -19786,13 +19766,13 @@ GameObject:
   m_Component:
   - 4: {fileID: 2000015617}
   - 33: {fileID: 2000015616}
-  - 135: {fileID: 2000015615}
   - 23: {fileID: 2000015614}
   - 114: {fileID: 2000015613}
   - 54: {fileID: 2000015612}
   - 75: {fileID: 2000015611}
   - 82: {fileID: 2000015610}
   - 114: {fileID: 2000015609}
+  - 65: {fileID: 2000015615}
   m_Layer: 0
   m_Name: Firework Blue
   m_TagString: Untagged
@@ -20339,19 +20319,18 @@ Renderer:
   m_UseLightProbes: 0
   m_LightProbeAnchor: {fileID: 0}
   m_ScaleInLightmap: 1
---- !u!135 &2000015615
-SphereCollider:
+--- !u!65 &2000015615
+BoxCollider:
   m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 13500000, guid: 5857c21d5faf9486ebdb32aaded61bd9,
-    type: 2}
-  m_PrefabInternal: {fileID: 1251034698}
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 2000015608}
   m_Material: {fileID: 0}
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Radius: .5
-  m_Center: {x: 0, y: 0, z: 0}
+  m_Size: {x: .5, y: .5, z: .5}
+  m_Center: {x: -3.05175781e-05, y: 0, z: 0}
 --- !u!33 &2000015616
 MeshFilter:
   m_ObjectHideFlags: 0
@@ -20359,7 +20338,7 @@ MeshFilter:
     type: 2}
   m_PrefabInternal: {fileID: 1251034698}
   m_GameObject: {fileID: 2000015608}
-  m_Mesh: {fileID: 10207, guid: 0000000000000000e000000000000000, type: 0}
+  m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
 --- !u!4 &2000015617
 Transform:
   m_ObjectHideFlags: 0
@@ -20399,12 +20378,6 @@ MonoBehaviour:
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 4c30c5ba201d3254a8a5d9027c487023, type: 3}
   m_Name: 
-  m_EditorClassIdentifier: 
-  m_EditorClassIdentifier: 
-  m_EditorClassIdentifier: 
-  m_EditorClassIdentifier: 
-  m_EditorClassIdentifier: 
-  m_EditorClassIdentifier: 
   m_EditorClassIdentifier: 
   m_EditorClassIdentifier: 
   m_EditorClassIdentifier: 
@@ -20488,7 +20461,6 @@ GameObject:
   m_Component:
   - 4: {fileID: 2058082612}
   - 33: {fileID: 2058082620}
-  - 135: {fileID: 2058082619}
   - 23: {fileID: 2058082618}
   - 114: {fileID: 2058082617}
   - 54: {fileID: 2058082616}
@@ -20496,6 +20468,7 @@ GameObject:
   - 82: {fileID: 2058082614}
   - 114: {fileID: 2058082613}
   - 114: {fileID: 2058082621}
+  - 65: {fileID: 2058082619}
   m_Layer: 0
   m_Name: Firework Purple
   m_TagString: Untagged
@@ -21054,19 +21027,18 @@ Renderer:
   m_UseLightProbes: 0
   m_LightProbeAnchor: {fileID: 0}
   m_ScaleInLightmap: 1
---- !u!135 &2058082619
-SphereCollider:
+--- !u!65 &2058082619
+BoxCollider:
   m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 13500000, guid: caacc3c1334df46ffb04586c22cdd7f4,
-    type: 2}
-  m_PrefabInternal: {fileID: 961968364}
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 2058082611}
   m_Material: {fileID: 0}
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Radius: .5
-  m_Center: {x: 0, y: 0, z: 0}
+  m_Size: {x: 1.00000036, y: 1.00000012, z: 1.00000024}
+  m_Center: {x: -3.04579735e-05, y: -1.99840144e-15, z: -8.94069672e-08}
 --- !u!33 &2058082620
 MeshFilter:
   m_ObjectHideFlags: 0

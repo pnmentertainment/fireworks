@@ -2702,7 +2702,7 @@ MonoBehaviour:
     e00: 553.846313
     e01: 0
     e02: 0
-    e03: 1.99944103
+    e03: 9.16994765e-08
     e10: 0
     e11: 640.000122
     e12: 0
@@ -16010,7 +16010,7 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1490303568}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -1.29963624, y: -287.220215, z: 0}
+  m_LocalPosition: {x: 0, y: -287.220215, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 311685495}
