@@ -24,6 +24,16 @@ public class NGUIParseTest : MonoBehaviour
 	
 	static string staticUser;
 	
+	void Start()
+	{
+		if (PlayerPrefs.GetInt ("UserLoggedIn") == 1)
+		{
+			levelLock.SetActive (false);
+			loginPanel.SetActive (false);
+			registrationPanel.SetActive (false);
+		}
+	}
+	
 	void Update()
 	{
 		if (bLogin)
