@@ -24,6 +24,18 @@ public class NGUIParseTest : MonoBehaviour
 	
 	static string staticUser;
 	
+	void Start()
+	{
+		if (PlayerPrefs.GetInt ("UserLoggedIn") == 1)
+		{
+		levelLock.SetActive (false);
+		loginPanel.SetActive (false);
+		registrationPanel.SetActive (false);
+		pwrecoveryPanel.SetActive (false);	
+		}
+	}
+	
+	
 	void Update()
 	{
 		if (bLogin)
@@ -38,6 +50,8 @@ public class NGUIParseTest : MonoBehaviour
 		PlayerPrefs.SetInt("UserLoggedIn", 1);
 		levelLock.SetActive (false);
 		loginPanel.SetActive (false);
+		registrationPanel.SetActive (false);
+		pwrecoveryPanel.SetActive (false);
 		message = "Took lock off";
 	//	loginPanel.animation.Stop ("loginpanelup");
 	//	loginPanel.animation.Play ("loginsuccess");
