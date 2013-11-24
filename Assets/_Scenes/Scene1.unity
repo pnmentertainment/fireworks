@@ -6030,8 +6030,8 @@ MonoBehaviour:
         serializedVersion: 2
         x: 50
         y: 100
-        width: 125
-        height: 32
+        width: 169
+        height: 48
       isBreakpoint: 0
       isSequence: 0
       hideUnused: 0
@@ -6041,6 +6041,14 @@ MonoBehaviour:
           isSystemEvent: 0
           isGlobal: 1
         toState: Down
+        linkStyle: 0
+        linkConstraint: 0
+        colorIndex: 0
+      - fsmEvent:
+          name: NGUI / ON PRESS DOWN
+          isSystemEvent: 0
+          isGlobal: 1
+        toState: 
         linkStyle: 0
         linkConstraint: 0
         colorIndex: 0
@@ -6191,6 +6199,9 @@ MonoBehaviour:
       isSystemEvent: 0
       isGlobal: 1
     - name: NGUI / ON PRESS
+      isSystemEvent: 0
+      isGlobal: 1
+    - name: NGUI / ON PRESS DOWN
       isSystemEvent: 0
       isGlobal: 1
     globalTransitions: []
