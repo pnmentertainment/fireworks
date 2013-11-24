@@ -211,7 +211,7 @@ MonoBehaviour:
     paddingBottom: 0
   - name: button-green00
     x: 288
-    y: 403
+    y: 251
     width: 28
     height: 28
     borderLeft: 5
@@ -224,7 +224,7 @@ MonoBehaviour:
     paddingBottom: 0
   - name: button-red00
     x: 259
-    y: 403
+    y: 251
     width: 28
     height: 28
     borderLeft: 5
@@ -237,7 +237,7 @@ MonoBehaviour:
     paddingBottom: 0
   - name: button-yellow00
     x: 230
-    y: 403
+    y: 251
     width: 28
     height: 28
     borderLeft: 5
@@ -275,8 +275,8 @@ MonoBehaviour:
     paddingTop: 0
     paddingBottom: 0
   - name: key_note_a_idle
-    x: 1412
-    y: 705
+    x: 1154
+    y: 303
     width: 128
     height: 200
     borderLeft: 0
@@ -288,7 +288,7 @@ MonoBehaviour:
     paddingTop: 0
     paddingBottom: 0
   - name: key_note_a_press
-    x: 1283
+    x: 1154
     y: 705
     width: 128
     height: 200
@@ -301,7 +301,7 @@ MonoBehaviour:
     paddingTop: 0
     paddingBottom: 0
   - name: key_note_b_idle
-    x: 1154
+    x: 1025
     y: 102
     width: 128
     height: 200
@@ -314,7 +314,7 @@ MonoBehaviour:
     paddingTop: 0
     paddingBottom: 0
   - name: key_note_b_press
-    x: 1154
+    x: 1025
     y: 303
     width: 128
     height: 200
@@ -327,8 +327,8 @@ MonoBehaviour:
     paddingTop: 0
     paddingBottom: 0
   - name: key_note_c_idle
-    x: 101
-    y: 231
+    x: 1025
+    y: 504
     width: 128
     height: 200
     borderLeft: 0
@@ -340,8 +340,8 @@ MonoBehaviour:
     paddingTop: 0
     paddingBottom: 0
   - name: key_note_c_press
-    x: 101
-    y: 30
+    x: 1025
+    y: 705
     width: 128
     height: 200
     borderLeft: 0
@@ -353,19 +353,6 @@ MonoBehaviour:
     paddingTop: 0
     paddingBottom: 0
   - name: key_note_c1_idle
-    x: 766
-    y: 122
-    width: 128
-    height: 200
-    borderLeft: 0
-    borderRight: 0
-    borderTop: 0
-    borderBottom: 0
-    paddingLeft: 0
-    paddingRight: 0
-    paddingTop: 0
-    paddingBottom: 0
-  - name: key_note_c1_press
     x: 895
     y: 122
     width: 128
@@ -378,9 +365,22 @@ MonoBehaviour:
     paddingRight: 0
     paddingTop: 0
     paddingBottom: 0
+  - name: key_note_c1_press
+    x: 766
+    y: 122
+    width: 128
+    height: 200
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
   - name: key_note_d_idle
-    x: 1025
-    y: 705
+    x: 101
+    y: 30
     width: 128
     height: 200
     borderLeft: 0
@@ -392,8 +392,8 @@ MonoBehaviour:
     paddingTop: 0
     paddingBottom: 0
   - name: key_note_d_press
-    x: 1025
-    y: 504
+    x: 101
+    y: 231
     width: 128
     height: 200
     borderLeft: 0
@@ -405,8 +405,8 @@ MonoBehaviour:
     paddingTop: 0
     paddingBottom: 0
   - name: key_note_e_idle
-    x: 1025
-    y: 303
+    x: 1154
+    y: 504
     width: 128
     height: 200
     borderLeft: 0
@@ -418,7 +418,7 @@ MonoBehaviour:
     paddingTop: 0
     paddingBottom: 0
   - name: key_note_e_press
-    x: 1025
+    x: 1154
     y: 102
     width: 128
     height: 200
@@ -431,7 +431,7 @@ MonoBehaviour:
     paddingTop: 0
     paddingBottom: 0
   - name: key_note_f_idle
-    x: 1154
+    x: 1283
     y: 705
     width: 128
     height: 200
@@ -444,8 +444,8 @@ MonoBehaviour:
     paddingTop: 0
     paddingBottom: 0
   - name: key_note_f_press
-    x: 1154
-    y: 504
+    x: 1412
+    y: 705
     width: 128
     height: 200
     borderLeft: 0
@@ -495,6 +495,45 @@ MonoBehaviour:
     paddingRight: 0
     paddingTop: 0
     paddingBottom: 0
+  - name: scene1
+    x: 230
+    y: 155
+    width: 100
+    height: 75
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: scene2
+    x: 230
+    y: 356
+    width: 100
+    height: 75
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: scene3
+    x: 230
+    y: 280
+    width: 100
+    height: 75
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
   - name: sidebar
     x: 0
     y: 39
@@ -523,7 +562,7 @@ MonoBehaviour:
     paddingBottom: 0
   - name: text_entry-edge00
     x: 317
-    y: 403
+    y: 251
     width: 28
     height: 28
     borderLeft: 0
@@ -535,8 +574,8 @@ MonoBehaviour:
     paddingTop: 4
     paddingBottom: 0
   - name: text_entry-fill00
-    x: 230
-    y: 378
+    x: 331
+    y: 407
     width: 24
     height: 24
     borderLeft: 0
@@ -548,8 +587,8 @@ MonoBehaviour:
     paddingTop: 4
     paddingBottom: 4
   - name: text_entry-fill00-1
-    x: 255
-    y: 385
+    x: 331
+    y: 389
     width: 17
     height: 17
     borderLeft: 5
