@@ -2253,7 +2253,7 @@ Prefab:
     - target: {fileID: 11400000, guid: 82ec77683ebd84d968046fc2f741eb35, type: 2}
       propertyPath: fsm.states.Array.data[1].actionData.fsmGameObjectParams.Array.data[0].value
       value: 
-      objectReference: {fileID: 100006, guid: 9745080bba57f4352af35005d9e60752, type: 2}
+      objectReference: {fileID: 100000, guid: a5525e1b488394bcaa062c6d8e183c9a, type: 2}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 82ec77683ebd84d968046fc2f741eb35, type: 2}
   m_RootGameObject: {fileID: 1745419689}
@@ -5753,7 +5753,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6c97efca01f30483fb4e73d6bb9ef67a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  user: {fileID: 962588577}
+  email: {fileID: 0}
   password: {fileID: 1970499974}
   emailReset: {fileID: 799098212}
   usernameRegister: {fileID: 2093528947}
@@ -14817,7 +14817,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &1236719266
 Transform:
   m_ObjectHideFlags: 0
@@ -15344,7 +15344,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 100034, guid: 9ef0260e7a34846bca0e189ff5872925, type: 2}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 9ef0260e7a34846bca0e189ff5872925, type: 2}
@@ -18961,7 +18961,7 @@ MonoBehaviour:
           tooltip: 
           showInInspector: 0
           networkSync: 0
-          value: {fileID: 100006, guid: 9745080bba57f4352af35005d9e60752, type: 2}
+          value: {fileID: 100000, guid: a5525e1b488394bcaa062c6d8e183c9a, type: 2}
         - useVariable: 0
           name: 
           tooltip: 
@@ -20810,7 +20810,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 100000, guid: f4e3cea89f6a94488bc57c5513e439ee, type: 2}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 6500000, guid: f4e3cea89f6a94488bc57c5513e439ee, type: 2}
       propertyPath: m_Size.x
@@ -23728,7 +23728,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &2135113774
 Transform:
   m_ObjectHideFlags: 0
