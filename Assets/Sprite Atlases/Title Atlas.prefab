@@ -41,8 +41,8 @@ MonoBehaviour:
   material: {fileID: 2100000, guid: 8ed00b8dd7ccb4f939b0b054d8f34c35, type: 2}
   mSprites:
   - name: black square
-    x: 0
-    y: 32
+    x: 601
+    y: 992
     width: 32
     height: 32
     borderLeft: 0
@@ -54,8 +54,8 @@ MonoBehaviour:
     paddingTop: 0
     paddingBottom: 0
   - name: button-green00
-    x: 33
-    y: 36
+    x: 634
+    y: 996
     width: 28
     height: 28
     borderLeft: 4
@@ -65,6 +65,45 @@ MonoBehaviour:
     paddingLeft: 2
     paddingRight: 2
     paddingTop: 4
+    paddingBottom: 0
+  - name: button-play-idle
+    x: 0
+    y: 102
+    width: 512
+    height: 200
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: button-play-press
+    x: 0
+    y: 303
+    width: 512
+    height: 200
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: title
+    x: 0
+    y: 504
+    width: 600
+    height: 520
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
     paddingBottom: 0
   mPixelSize: 1
   mReplacement: {fileID: 0}
