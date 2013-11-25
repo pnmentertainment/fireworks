@@ -5,7 +5,7 @@ using Parse;
 
 public class NGUIParseTest : MonoBehaviour
 {
-	public UILabel user;
+	public UILabel email;
 	public UILabel password;
 	public UILabel emailReset;
 	public UILabel usernameRegister;
@@ -98,7 +98,7 @@ public class NGUIParseTest : MonoBehaviour
 	{
 //		print ("user"+user+"pass"+password);
 //		staticUser = user.;
-		ParseUser.LogInAsync(user.text, password.text).ContinueWith(t =>
+		ParseUser.LogInAsync(email.text, password.text).ContinueWith(t =>
 		{
 			if (t.IsFaulted || t.IsCanceled)
 			{
