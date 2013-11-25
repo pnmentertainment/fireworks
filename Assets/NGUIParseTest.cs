@@ -5,7 +5,7 @@ using Parse;
 
 public class NGUIParseTest : MonoBehaviour
 {
-	public UILabel email;
+	public UILabel user;
 	public UILabel password;
 	public UILabel emailReset;
 	public UILabel usernameRegister;
@@ -79,7 +79,7 @@ public class NGUIParseTest : MonoBehaviour
                 {
 					Debug.LogError("Passwords Matched");
 					var userCurrent = new ParseUser(){
-						Username = usernameRegister.text,
+						Username = emailRegister.text,
 						Email = emailRegister.text,
 						Password = passwordRegister.text
 					};
@@ -98,7 +98,7 @@ public class NGUIParseTest : MonoBehaviour
 	{
 //		print ("user"+user+"pass"+password);
 //		staticUser = user.;
-		ParseUser.LogInAsync(email.text, password.text).ContinueWith(t =>
+		ParseUser.LogInAsync(user.text, password.text).ContinueWith(t =>
 		{
 			if (t.IsFaulted || t.IsCanceled)
 			{
