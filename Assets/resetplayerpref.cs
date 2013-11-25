@@ -4,7 +4,7 @@ using System.Collections;
 public class resetplayerpref : MonoBehaviour {
 
 	// Use this for initialization
-	void Start () {
+	void Awake () {
 	PlayerPrefs.SetInt("UserLoggedIn", 0);
 	}
 	
