@@ -171,7 +171,7 @@ MonoBehaviour:
     paddingTop: 0
     paddingBottom: 0
   - name: button_scene_left_press
-    x: 1790
+    x: 1412
     y: 924
     width: 188
     height: 100
@@ -197,7 +197,7 @@ MonoBehaviour:
     paddingTop: 0
     paddingBottom: 0
   - name: button_scene_right_press
-    x: 1412
+    x: 1790
     y: 924
     width: 188
     height: 100
