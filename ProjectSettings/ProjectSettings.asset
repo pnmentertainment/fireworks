@@ -110,7 +110,7 @@ PlayerSettings:
   m_BuildTargetIcons:
   - m_BuildTarget: 
     m_Icons:
-    - m_Icon: {fileID: 2800000, guid: c2932197cfb1f4536a29d5b79cdaafa3, type: 3}
+    - m_Icon: {fileID: 2800000, guid: 0068c662a5eeeb14bb095db15d102745, type: 3}
       m_Size: 128
   m_BuildTargetBatching:
   - m_BuildTarget: Standalone
@@ -155,7 +155,16 @@ PlayerSettings:
   ps3SaveGameSlots: 1
   ps3TrialMode: 0
   flashStrippingLevel: 2
-  scriptingDefineSymbols: {}
+  scriptingDefineSymbols:
+    data:
+      first: 1
+      second: 
+    data:
+      first: 4
+      second: 
+    data:
+      first: 7
+      second: 
   metroPackageName: New Unity Project
   metroPackageLogo: 
   metroPackageVersion: 
